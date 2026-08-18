@@ -1,0 +1,6 @@
+outs:
+- md5: 3771d08ded6b2fc86b1bfc547131c175.dir
+  size: 45807529
+  nfiles: 158
+  hash: md5
+  path: micreframe-brainstorm
