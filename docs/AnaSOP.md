@@ -5,435 +5,550 @@
 ### Central Research Question
 
 - Research type: applied
-- Research question: Among road segments and communities exposed to comparable 2026 ground shaking, is stronger 2016 earthquake exposure and the resilience legacy accumulated during 2016-2026 associated with less severe transport disruption and faster restoration after the 2026 earthquake?
-- Why it matters: A repeated earthquake in the same urban region creates a rare opportunity to test whether disaster experience, institutional learning, and completed resilience investment translate into observable performance when infrastructure is stressed again.
-- Data support currently visible: Official shaking surfaces exist for both earthquake sequences; a versioned 2026 road-state time series and pilot road/building networks have been acquired. A spatially and temporally linkable 2016 road-restoration record and a 2016-2026 intervention ledger remain the principal missing inputs.
-- Candidate constructs, subject to feasibility confirmation: 2016 Shaking Exposure, 2026 Shaking Intensity, Documented Resilience Intervention, 2026 Road Disruption, Road Restoration Time, Community Isolation Duration, and Critical Facility Access Loss.
-- What would verify it: On a defensible common-support sample, previously exposed or demonstrably upgraded locations show shorter disruption or restoration duration after conditioning on 2026 hazard, baseline network structure, terrain, and settlement characteristics; the relationship remains directionally stable across exposure, restoration, and missing-data definitions.
-- What would falsify or weaken it: The necessary records cannot be linked in space and time; exposed and comparison locations lack common hazard support; restoration timestamps are too incomplete; or the estimated resilience difference disappears under reasonable adjustment and sensitivity checks.
-- Required next feasibility check: Construct inventories of official 2016/2026 road disruption records and 2016-2026 completed interventions, then test temporal precision, spatial linkage, common support, and outcome completeness before choosing an estimator.
+- Research question: How did two distinct post-2016 adaptation pathways—corridor capacity expansion along the Mashiki Central Line and structural reconstruction of Yokoe Bridge—translate into observable transport-service performance when Kumamoto was struck again in 2026, and how far can these repeated-shock observations support claims about urban resilience learning?
+- Why it matters: Cities invest after disasters without often receiving an observable second stress test. Kumamoto provides rare longitudinal evidence on whether two actionable forms of adaptation—adding corridor capacity and rebuilding a damaged structure—were followed by better performance when the region experienced another major earthquake.
+- Data support currently visible: Official project and disaster records establish the intervention chronology, exact road or asset identity, 2016 disruption, and 2026 performance for two core cases. Version-pinned MMI and PGA surfaces characterize event exposure. Exhaustive screening of 12 post-2016 local road-project records and 37 officially restored bridges shows that the Mashiki corridor cluster and Yokoe Bridge are the only admissible core cases for their respective pathways; the remaining candidates fail route, asset, proximity, or comparable-hazard gates.
+- What would verify it: Each case must preserve temporal ordering from 2016 failure through completed adaptation to the 2026 stress test; asset or corridor linkage must be exact; the observed 2026 direction must remain credible under alternative hazard metrics, restoration endpoints, and source-timing rules; and all claims must remain pathway specific.
+- What would falsify or weaken it: A project is not demonstrably complete before the 2026 event; road or bridge identity is ambiguous; 2026 passage observations do not support the stated service inference; the Yokoe restoration direction reverses under a defensible endpoint; or event severity and outcome definitions make the two episodes non-comparable.
+- Feasibility conclusion: The two cases pass a structured descriptive mechanism gate. They do not provide a common-support comparison sample, a pooled estimator, or a causal counterfactual; the natural-experiment claim is therefore rejected.
 
 ### Supporting Research Questions
 
-#### Supporting Point 1: Intervention mechanism
+#### Supporting Point 1: Pathway-specific mechanisms
 
-- Research question: Do documented road, bridge, land-readjustment, evacuation, and critical-facility interventions completed after 2016 explain part of the association between prior earthquake exposure and 2026 restoration performance?
-- Why it matters: It separates a generic experience legacy from observable physical or organizational investment that cities can replicate.
-- Data support currently visible: Project categories and official post-2016 recovery documents are identifiable, but a geocoded completion-date and expenditure ledger has not yet been assembled.
-- What would verify it: Completed and spatially relevant interventions predict lower disruption or faster restoration, with temporal ordering established before the 2026 event.
-- What would falsify or weaken it: Project locations or completion dates cannot be recovered, or intervention associations vanish after conditioning on hazard and baseline network characteristics.
-- Required feasibility check: Recover stable project identifiers, geometry, start/completion dates, type, and cost or intensity from official national, prefectural, and municipal records.
+- Research question: Through what observable mechanisms could corridor capacity expansion and structural reconstruction alter transport performance during a subsequent earthquake?
+- Why it matters: Distinguishing obstruction tolerance and route-space redundancy from structural damage containment and repairability turns a generic resilience narrative into two policy-relevant adaptation pathways.
+- Data support currently visible: The Mashiki case links three staged, route-compatible expansion records to a corridor with documented 2016 restrictions and dense 2026 passage observations. The Yokoe case links the same bridge's 2016 damage, reconstruction and reopening, 2026 damage, and second reopening.
+- What would verify it: Official designs and chronologies support the proposed physical pathway, and observed performance is directionally consistent with that pathway without treating consistency as proof of causation.
+- What would falsify or weaken it: The documented works did not change the relevant capacity or structure, or the observed outcome concerns a different route, asset, or service function.
 
-#### Supporting Point 2: Network and service mechanism
+#### Supporting Point 2: Repeated-shock performance
 
-- Research question: Did the 2016-2026 resilience legacy preserve access to hospitals, shelters, emergency routes, and municipal centres by reducing network fragmentation and community isolation in 2026?
-- Why it matters: Network accessibility is closer to lived urban resilience than building-level image change and connects infrastructure performance to essential services.
-- Data support currently visible: A 2026 road-state series and partial road and critical-facility layers are available; stable baseline networks and facility identifiers require completion.
-- What would verify it: Previously exposed or upgraded areas experience smaller increases in travel time, fewer disconnected communities, or shorter isolation duration under comparable 2026 shaking.
-- What would falsify or weaken it: Road observations cannot be converted into time-varying passability, or facility and community access outcomes are insensitive to observed disruptions.
-- Required feasibility check: Test whether road-state snapshots can be linked to stable segments and whether closures generate measurable changes in facility access and component connectivity.
+- Research question: Within each core case, how did the observed 2026 service or restoration trajectory differ from the documented 2016 trajectory, conditional on the case-specific shaking evidence?
+- Why it matters: The repeated shock is analytically valuable only when chronology, exposure, and outcome definitions are kept explicit rather than collapsed into a single resilience score.
+- Data support currently visible: Mashiki has dated 2016 restriction and release records plus 20 of 21 observed 2026 passage snapshots, with near-full positive passage first observed 43.55 hours after the 2026 event. Yokoe has event-to-full-reopening durations for both earthquakes and experienced stronger 2026 shaking under both mean MMI and PGA while reopening far sooner.
+- What would verify it: The Mashiki passage trajectory is reproducible from observed snapshots, and the Yokoe direction remains faster in 2026 under both the full-bridge and admissible early-access 2016 endpoints.
+- What would falsify or weaken it: Observation gaps determine the apparent Mashiki trajectory, or a defensible, like-for-like Yokoe endpoint removes the faster-2026 direction.
 
-#### Supporting Point 3: Spatial inequality and heterogeneity
+#### Supporting Point 3: Selection and transferability boundaries
 
-- Research question: Is any resilience legacy weaker in peripheral, topographically constrained, ageing, or poorly connected communities than in central and redundant parts of the urban network?
-- Why it matters: Average recovery can conceal unequal protection and persistent isolation risks that are central to urban policy.
-- Data support currently visible: Terrain, administrative geography, road geometry, and critical facilities are partly available; population and comparable baseline socioeconomic measures still require a linkage audit.
-- What would verify it: Restoration or access benefits vary systematically with baseline remoteness, network redundancy, terrain, or demographic vulnerability, with adequate observations in each subgroup.
-- What would falsify or weaken it: Subgroup support is sparse, measures are temporally inconsistent, or heterogeneity estimates are dominated by a few locations.
-- Required feasibility check: Audit stable small-area population, age structure, terrain, and network-centrality coverage for both events.
+- Research question: Why are Mashiki Central Line and Yokoe Bridge admissible as core repeated-shock cases, and what do excluded official reconstruction candidates reveal about the limits of transferring their results?
+- Why it matters: An explicit denominator and documented negative cases reduce cherry-picking risk and show which geographic, hazard, and asset conditions bound the findings.
+- Data support currently visible: Route-name and spatial screens reject superficially similar road restrictions; the official restored-bridge inventory yields one exact same-asset recurrence; and the New Aso Bridge, Ohkirihata Bridge, and National Route 57 Tateno corridor fail core comparability because 2026 shaking was much weaker and their 2026 passage observations are proximity evidence rather than exact asset outcomes.
+- What would verify it: Every screened candidate is classified by prespecified identity, timing, hazard, and outcome gates, with exclusions reproducible from official records.
+- What would falsify or weaken it: Additional eligible cases are found under the same rules, or the retained cases only qualify under post hoc thresholds.
 
 #### Supporting Point 4: Robustness and evidence boundaries
 
-- Research question: How sensitive are the repeated-shock findings to alternative shaking measures, restoration endpoints, intervention definitions, censoring rules, missing road observations, and the exclusion of unsupported building-reconstruction proxies?
-- Why it matters: The current pilot shows that outcome definition and measurement error can dominate apparent results.
-- Data support currently visible: Multiple shaking measures, versioned 2026 road snapshots, and explicit failed building-level measurement gates permit transparent sensitivity analysis.
-- What would verify it: The central direction survives prespecified alternative definitions, common-support restrictions, and plausible measurement-error scenarios.
-- What would falsify or weaken it: Sign, magnitude, or substantive interpretation changes across reasonable definitions, or results depend on failed individualized building probabilities.
-- Required feasibility check: Predefine the admissible exposure, outcome, treatment, censoring, and missingness scenarios before estimation.
+- Research question: Which conclusions survive alternative shaking measures, restoration endpoints, observation-window definitions, and source-precedence rules, and which remain dependent on measurement choice?
+- Why it matters: MMI and PGA do not rank all repeated-shock comparisons identically, and road passage, restriction release, and full structural reopening are different outcomes.
+- Data support currently visible: Both hazard measures, alternative Yokoe endpoints, time-stamped road observations, source-quality ranks, and explicit failed linkage gates permit a transparent sensitivity and boundary analysis.
+- What would verify it: The central pathway-specific directions survive all prespecified admissible choices and are reported separately from non-comparable outcomes.
+- What would falsify or weaken it: Direction or interpretation changes under reasonable definitions, or unsupported missing-as-open, proximity-as-identity, or passage-as-undamaged assumptions are required.
 
 ### Scope of Analysis
 
-- Geographic scope: Kumamoto Prefecture, with Mashiki as the core repeated-shock pilot and Uki or Hikawa added only when comparable road, intervention, and hazard coverage passes feasibility gates.
-- Units of analysis: Road segment by observation time for disruption and restoration; community or network node for isolation and critical-facility access; municipality only for aggregate robustness checks.
-- Period: The 2016 earthquake sequence, interventions completed during 2016-2026, and the 2026 earthquake disruption and recovery window.
-- Excluded central outcomes: Unvalidated building reconstruction probabilities and long-interval orthophoto change attributed directly to the 2026 earthquake.
+- Geographic scope: Kumamoto Prefecture, with Mashiki Central Line and Yokoe Bridge as the two core cases. New Aso Bridge, Ohkirihata Bridge, and National Route 57 at Tateno are contextual mechanism cases only.
+- Units of analysis: One corridor-level capacity-expansion case and one same-asset bridge-reconstruction case. Snapshots, project stages, and hazard samples are repeated measurements within cases, not independent treatment observations.
+- Period: The 2016 earthquake and recovery, adaptations completed during 2016-2026, and the 2026 earthquake disruption and recovery window.
+- Core outcomes: Observed corridor passage progression for Mashiki and event-to-restoration time for Yokoe, retained in their original case-specific definitions.
+- Excluded central claims: A pooled resilience effect, causal treatment effect, network-wide accessibility or community-isolation benefit, and building reconstruction inferred from unvalidated image-change probabilities.
 
 ### Study Design Declaration
 
 - Research type: applied
-- Study design: Repeated-shock observational panel with hazard common-support matching and time-to-restoration or network-access outcomes; a quasi-experimental interpretation is conditional on later feasibility and identification checks.
-- Interpretation limit: Prior 2016 exposure is geographically patterned rather than randomized. No causal resilience dividend will be claimed unless intervention timing, comparison support, pre-event differences, and spatial confounding can be addressed.
+- Study design: Structured comparative repeated-shock mechanism study with two deliberately non-pooled cases.
+- Case-selection logic: Core cases are selected from exhaustive official denominators using prespecified identity, timing, hazard, and outcome gates, not because they show favorable outcomes.
+- Interpretation limit: The study can establish chronology, directional within-case contrast, mechanism consistency, and selection boundaries. It cannot identify what would have happened without the adaptations, estimate an average treatment effect, or attribute all between-event improvement to the intervention.
+
+### Staged Evidence Contract
+
+- Core contribution: Show how two different post-disaster adaptation pathways were stress-tested by a later earthquake and demonstrate what can be learned when repeat-event evidence is heterogeneous but unusually traceable.
+- Strongest admissible claim: Yokoe provides a directionally dominant same-asset restoration contrast under stronger 2026 MMI and PGA; Mashiki provides a corridor-level service-presence trajectory consistent with added capacity but not a like-for-like restoration-duration effect.
+- Publication gate: A high-impact paper must foreground the paired mechanism insight, exhaustive selection audit, and inference boundary. It must not present the cases as a natural experiment or combine them into a common effect estimate.
 
 ## 2. Theoretical Background  /  Conceptual Framework  /  Problem Formulation
 
 ### Research Gap
 
-Disaster studies commonly examine damage or short-run recovery after one event. Much less is known about whether the combined legacy of prior exposure, institutional learning, and completed resilience investment improves observable urban-system performance when the same region is struck again years later. Existing building imagery in this project cannot supply a validated reconstruction outcome, but repeated shaking and road-state observations can potentially test a more policy-relevant resilience question based on disruption, restoration, and access.
+Most disaster-recovery studies observe one event, while infrastructure investment is usually justified by how it should perform under a future event that has not yet occurred. Consequently, there is limited observed evidence connecting a documented post-disaster adaptation pathway to performance when the same urban region is stressed again. Repeat events do not automatically create a natural experiment: shaking fields, damaged assets, measurement systems, and recovery endpoints can all differ. The unresolved applied problem is therefore how to extract credible, policy-relevant learning from a rare second stress test without converting traceable case evidence into an unsupported causal estimate.
 
 ### Conceptual Framework
 
-The applied framework is:
+The common sequence is `2016 shock -> observed transport failure -> post-2016 adaptation -> 2026 shock -> observed transport performance`. The two core cases instantiate different middle mechanisms:
 
-1. The 2016 earthquake generates heterogeneous exposure, damage experience, learning, and political demand.
-2. During 2016-2026, governments and communities may implement physical upgrades, land and road restructuring, preparedness changes, and service-network adaptations.
-3. The 2026 earthquake supplies a new stress test with spatially heterogeneous shaking.
-4. Urban resilience is observed as reduced disruption severity, shorter restoration time, preserved network connectivity, and maintained access to critical services.
+1. **Capacity pathway:** corridor widening and added road space may increase obstruction tolerance, operational flexibility, and the ability to maintain partial passage after disruption.
+2. **Structural pathway:** bridge reconstruction may reduce vulnerability, contain damage, improve repairability, or accelerate safe reopening after renewed loading.
 
-The main pathway is `2016 exposure -> learning and completed intervention -> 2026 preparedness and network redundancy -> 2026 disruption and restoration`. Potential confounding arises from hazard geography, terrain, pre-existing urban form, network centrality, population change, public investment capacity, and selective intervention placement. Prior exposure and completed intervention must therefore be distinguished empirically whenever the records allow it.
+Observed performance is jointly shaped by the adaptation pathway, the 2026 hazard vector, the asset's network role and local geography, emergency operations, and the observation system. Mechanism consistency is present when chronology, physical design, and outcome direction align. It is not equivalent to causal mediation because adaptation placement was selective and no untreated version of either asset is observed in 2026.
+
+The framework therefore separates three evidence levels: (1) **documented fact**, including asset identity, project completion, restriction, passage, and reopening; (2) **structured comparison**, including event-specific shaking and within-case timing; and (3) **mechanism interpretation**, which must be phrased as consistent with an adaptation pathway rather than caused by it.
 
 ### Problem Formulation
 
-Let \(T_i^{2026}\) denote restoration time or isolation duration for road segment or community \(i\), \(E_i^{2016}\) prior earthquake exposure, \(I_i^{2016-2026}\) completed resilience intervention, \(H_i^{2026}\) 2026 hazard intensity, and \(X_i\) pre-event geographic, network, and settlement characteristics. The empirical problem is represented conceptually as:
+Let \(c \in \{M,Y\}\) index Mashiki Central Line and Yokoe Bridge, and \(e \in \{2016,2026\}\) index earthquake episodes. Let \(A_c\) denote the documented adaptation pathway completed between events, \(H_{ce}=(\mathrm{MMI}_{ce},\mathrm{PGA}_{ce})\) the case-event hazard vector, and \(O_{ce}\) the observed case-specific transport outcome.
 
-\[
-T_i^{2026} = f(E_i^{2016}, I_i^{2016-2026}, H_i^{2026}, X_i) + \epsilon_i.
-\]
+No common outcome permits a defensible pooled equation across \(M\) and \(Y\). The analysis instead applies two within-case contrasts:
 
-This expression defines the required data flow rather than a final estimator. Restoration may be interval-censored between official snapshots, interventions may be selectively located, road observations may be incomplete, and outcomes on nearby segments may be spatially dependent. The next feasibility check must determine whether treatment timing, stable segment linkage, common support, censoring, and spatial dependence can be handled well enough for estimation. Until then, the analysis supports descriptive and associational resilience comparisons rather than causal claims.
+- For Mashiki, compare the bounded chronology of named 2016 restrictions and releases with the time-indexed presence of positive corridor passage in 2026. Because restriction release and probe-derived passage are not equivalent, this contrast identifies service evidence and timing bounds, not a recovery-duration ratio.
+- For Yokoe, define \(T_{Ye}\) as event-to-restoration time under matched reopening endpoints and evaluate \(R_Y=T_{Y,2026}/T_{Y,2016}\). A value \(R_Y<1\) under stronger 2026 MMI and PGA is a directional-dominance observation consistent with improved structural recovery capacity, not a causal reconstruction effect.
+
+Four propositions organize falsification:
+
+1. **P1 — temporal validity:** Each adaptation was completed after the 2016 failure and before the 2026 stress test.
+2. **P2 — pathway consistency:** Mashiki shows an observable 2026 passage progression consistent with capacity-based tolerance, while Yokoe shows faster like-for-like restoration consistent with reconstruction-based repairability.
+3. **P3 — selection validity:** No excluded candidate passes the same identity, timing, hazard, and outcome rules used for the core cases.
+4. **P4 — measurement robustness:** The admissible conclusion survives MMI/PGA, endpoint, observation-window, and source-precedence sensitivity; any component that does not survive is reported as measurement dependent.
+
+The terminal inferential object is a structured evidence matrix linking each factual observation to a mechanism proposition and a stated inference ceiling. The study does not estimate a counterfactual or average resilience dividend.
 
 ## 3. Data Overview
 
-### 3.1 Resilience mainline scope
+### 3.1 Core analytical scope
 
-| Analytical source | Unit | Rows | Columns | Current role |
-|---|---|---:|---:|---|
-| Official Mashiki road network | road feature | 433 | 11 | Stable local network geometry and route attributes |
-| 2026 road-restriction series | reported restriction feature by snapshot | 1,063 | 21 | Descriptive disruption timing, composition, and spatial progression |
-| Restriction snapshot coverage | official archive | 24 | 9 | Observation-window and missing-layer audit |
-| Candidate resilience interventions | documented intervention | 20 | 20 | Completion timing, candidate route linkage, and eligibility audit |
+The final core comprises six analysis-ready products organized around two deliberately non-pooled adaptation cases.
 
-All 433 road geometries and 1,063 restriction geometries are present, valid, and retained in WGS84. The restriction features occur in 23 restriction-bearing snapshots; the 24th archive has no restriction layer and is retained as unavailable observation coverage rather than as zero disruption.
+| Analytical product | Unit | Rows | Columns | Primary research use |
+| --- | --- | ---: | ---: | --- |
+| Two-case evidence layer | core adaptation case | 2 | 18 | Connects documented adaptation, repeated-shock evidence, hazard, outcome comparability, permissible claim, and inference ceiling. |
+| Mashiki event-state layer | positive 2016 event-state observation or 2026 passage snapshot | 28 | 17 | Describes the capacity-expansion pathway while preserving two non-equivalent observation systems. |
+| Yokoe matched-endpoint layer | endpoint definition | 2 | 18 | Tests the restoration direction under the primary and early-access endpoint definitions. |
+| Candidate-selection ledger | candidate within an official denominator | 65 | 17 | Makes gate unit, case inclusion, exclusion, and transferability boundaries reproducible. |
+| Case-geometry layer | core adaptation case | 2 | 9 | Supplies the verified corridor-cluster and same-bridge geometries used for map display and geometry-gate auditing. |
+| Claim-sensitivity matrix | claim-scenario pair | 12 | 8 | Classifies results across hazard, endpoint, observation, outcome, denominator, geometry, and source-precedence scenarios. |
 
-### 3.2 Temporal structure
+The final core therefore contains two cases, not 111 independent observations. Event-state rows, endpoint definitions, denominator records, geometry rows, and sensitivity scenarios are repeated, display, or audit units within the design.
 
-- The official restriction observation window runs from 29 July 2026 at 08:00 Japan Standard Time through 17 August 2026 at 09:00 Japan Standard Time.
-- Snapshot Time is the primary repeated-observation variable. Restriction Start Time supplies event timing when reported but is missing for 20.8% of restriction features.
-- Completion Date Earliest and Completion Date Latest encode uncertainty in reported intervention completion expressions. All 20 latest completion bounds precede the 28 July 2026 event.
-- The exploratory scanner identified additional date-like building and metadata fields, but these are not treated as repeated observations for the road-resilience mainline.
+### 3.2 Mashiki Central Line coverage
 
-### 3.3 Coverage, missingness, and distributions
+The Mashiki capacity-pathway product contains three positive 2016 restriction summaries and 25 time-indexed 2026 passage snapshots.
 
-- The data briefing read 28 tabular sources, summarized 693 variables, generated 80 exploratory distribution plots, and skipped no files.
-- Within the road-restriction series, Restriction Direction is 89.3% missing, Restriction Length (km) is 21.8% missing, Restriction Start Time is 20.8% missing, and Prefecture and Municipality are each 20.5% missing.
-- Missing values remain unfilled. Observed reported length is therefore not equivalent to total restricted network length.
-- Repeated source Restriction Record ID values are retained because one reported event may contain multiple sections or features; Restriction Feature ID is the unique row-level identifier.
-- Observation State distinguishes active full closure, active emergency access only, restriction lifted, and unknown status. It does not infer openness from layer absence or non-reporting.
-- The exploratory distributions describe the available records and do not estimate closure prevalence, restoration, treatment effects, or causal relationships.
+- The 2016 evidence identifies two full-closure subsegments and one one-side-closure subsegment on the retained corridor.
+- The 2026 passage layer is available in 21 of 25 snapshots.
+- Positive corridor-aligned passage is observed in 20 of the 21 available snapshots.
+- Near-full longitudinal passage is first observed 43.55 hours after the 2026 event origin.
+- Four snapshots without a passage layer remain unavailable observations.
+- One available snapshot without a positive corridor trace remains no observed passage; it is not coded as confirmed impassability.
+- The 2016 restriction state and 2026 probe-passage state are retained as different measurement systems. They cannot be converted into a single restoration-duration variable.
 
-### 3.4 Retained building evidence
+The event-state product supplies a bounded service-presence trajectory and observation-coverage audit. It does not supply a like-for-like recovery ratio.
 
-The earlier building work remains available as an appendix and measurement-boundary exercise. It includes an image-covered candidate frame of 2,614 buildings, a 9,039-record cross-release panel, and 100-record calibration and validation samples. These records cannot supply a central 2026 event-damage or individualized reconstruction outcome because the relevant attribution and prediction gates failed.
+### 3.3 Yokoe Bridge coverage
 
-### 3.5 Data limitations relative to the research objective
+The Yokoe structural-pathway product contains two endpoint definitions for the same bridge.
 
-- The 2026 restriction series records reported closures and restrictions, not a complete census of road state. Non-reporting is not passability.
-- Four source record IDs appear with a restriction-lifted status, but only one is observed first in an active state and later in a lifted state. This is insufficient for a general Road Restoration Time outcome.
-- Twelve of 20 interventions have a unique candidate route-name match, but none has verified completed-subsegment geometry; treatment assignment is therefore unavailable.
-- A spatially linkable 2016 road-restoration record, comparable road-level shaking exposure for both events, community and critical-facility nodes, demographic vulnerability, terrain, and network-redundancy measures remain outside the final-variable set.
-- The current data support bounded descriptive and evidence-readiness analysis. They do not yet support the central repeated-shock causal or associational comparison.
+- The primary endpoint compares full general-traffic reopening after both earthquakes.
+- The sensitivity endpoint replaces only the 2016 full-reopening endpoint with the earlier light-vehicle-access milestone.
+- The primary 2026-to-2016 restoration-time ratio is approximately 0.0192.
+- The early-access sensitivity ratio is approximately 0.0477.
+- Both ratio intervals remain below one, so the faster-2026 direction is endpoint robust.
+- The 2026 event has higher sampled mean MMI and PGA than the 2016 event at the bridge.
+
+These records support a directionally dominant same-asset comparison. They do not identify how the bridge would have performed in 2026 without reconstruction.
+
+### 3.4 Candidate denominators and selection coverage
+
+The consolidated selection ledger contains four official candidate universes.
+
+| Candidate universe | Records | Core use |
+| --- | ---: | --- |
+| Post-2016 local road projects | 12 | Three route-compatible stages are nested within one Mashiki Central intervention cluster; the remaining projects fail route, geometry, or repeated-shock support. |
+| Bridges officially restored after 2016 | 37 | Provides the complete audited reconstruction denominator. |
+| Distinct 2026 bridge-damage records | 13 | Produces one exact same-asset recurrence when crosswalked to the restored-bridge denominator. |
+| Additional official reconstruction candidates | 3 | Retained as contextual mechanism cases after failing comparable-hazard and exact-outcome gates. |
+
+Yokoe appears once in each of the two bridge denominators. Those entries are two audit perspectives on one physical case and are never counted as two observations. The three Mashiki project stages are likewise treated as one corridor cluster.
+
+The geometry gate is evaluated at the declared analytical unit. The three retained Mashiki stages inherit one verified official aggregate corridor polygon and remain one nested corridor cluster; they are not treated as three independently geocoded treatments. Yokoe uses the exact official bridge-damage restriction segment at the same physical bridge.
+
+### 3.5 Temporal and hazard structure
+
+- The analytical period begins with the April 2016 earthquake sequence, includes adaptations completed before the July 2026 event, and ends with the observed 2026 restoration or passage window.
+- Adaptation completion is observed before the second stress test for both core cases.
+- Mashiki Observation Time is retained in Japan Standard Time. Date-only 2016 restriction records remain calendar-day observations rather than artificial exact timestamps.
+- Mashiki mean MMI is 8.653 in 2016 and 8.601 in 2026, while mean PGA is 0.963 g and 0.609 g. Event comparability is therefore hazard-metric dependent.
+- Yokoe mean MMI is 7.134 in 2016 and 8.670 in 2026, while mean PGA is 0.302 g and 0.558 g. Both metrics rank the 2026 event as stronger at the bridge.
+- First observed passage and calendar-day reopening records are treated as timing bounds whenever the underlying transition time is not observed directly.
+
+### 3.6 Missingness, distributions, and exploratory coverage
+
+No missing value is imputed in the final products.
+
+- Nullable passage indicators are structurally missing for the three 2016 Mashiki restriction summaries because the passage layer applies only to 2026.
+- Candidate route, location, completion, and hazard fields remain missing when an official denominator does not provide an equivalent field.
+- Missing candidate fields do not create a failed gate by themselves; gate status is assigned only from positive audit evidence.
+- Source hashes and official references remain available as non-final traceability fields.
+- The project-wide exploratory briefing read 38 tabular data sources, summarized 831 variables, and generated 80 distribution plots.
+- Four legacy traffic-census text files were skipped by the generic reader because of Japanese character encoding. Their previously completed corridor-specific audit remains available, and none of the five final products depends on the failed generic read.
+- Time-like fields were detected in 18 data sources. The core time structure is already represented by Mashiki Observation Time, Adaptation Completion, and the Yokoe restoration bounds; no additional project-wide time-series plot is required for the current research questions.
+
+Project-wide distributions describe data availability and quality only. They are not evidence of treatment effects, recovery prevalence, or a population sampling distribution.
+
+### 3.7 Data limitations relative to the research objective
+
+- The effective core contains two heterogeneous cases and cannot support statistical population inference, a pooled effect, or a natural-experiment estimate.
+- Mashiki outcome definitions differ by event. The case supports timing bounds and mechanism consistency, not a restoration-time improvement estimate.
+- Positive probe passage establishes observed service presence, not an undamaged road, full capacity, normal traffic, or uninterrupted passage before the first positive snapshot.
+- Yokoe supplies a matched same-asset endpoint but remains one reconstructed bridge without an untreated counterfactual.
+- Differences in emergency response, inspection practice, traffic control, network conditions, and institutional capacity between 2016 and 2026 remain uncontrolled.
+- Exhaustive selection is conditional on the official denominators audited to date. Later official releases may expand those denominators and require rerunning the gates.
+- The legacy four-unit recovery registry, the general 2026 restriction archive, road-network overlap diagnostics, and building-image products remain supplementary or process evidence. They are not part of the final core case sample.
+
+### 3.8 Research-question readiness
+
+| Research question role | Current data status | Supported use |
+| --- | --- | --- |
+| Central two-pathway question | bounded-testable | Structured two-case evidence synthesis with separate pathway conclusions and inference ceilings. |
+| Pathway mechanisms | partly-testable | Physical and chronological mechanism consistency; no causal mediation. |
+| Repeated-shock performance | descriptively-testable | Mashiki passage timing bounds and Yokoe endpoint-specific restoration ratios reported separately. |
+| Selection and transferability | audit-testable | Reproducible official denominators, inclusion gates, negative cases, and contextual exclusions. |
+| Robustness and evidence boundaries | testable | Claim classification across 12 prespecified measurement and design scenarios. |
+
 ## 4. Variable Construction  /  Key Variables
 
-### 4.1 Resilience mainline datasets
+### 4.1 Final analytical products
 
-| Analytical dataset | Unit / rows | Role | Status |
-|---|---:|---|---|
-| Official Mashiki road network | road feature / 433 | Stable local road geometry and route attributes | Reproducible; all geometries valid |
-| Kumamoto 2026 road-restriction series | restriction feature by snapshot / 1,063 | Observed closure or restriction states across 23 published snapshots | Reproducible; absence is not coded as open |
-| Restriction snapshot coverage | official archive / 24 | Distinguishes restriction-bearing snapshots from a missing restriction layer | Reproducible; one explicit layer absence |
-| Candidate resilience interventions | documented intervention / 20 | Completion timing and conservative candidate route linkage | Reproducible; no record is yet treatment eligible |
+| Analytical product | Unit | Rows | Columns | Analytical role |
+| --- | --- | ---: | ---: | --- |
+| Two-case evidence layer | core adaptation case | 2 | 18 | Connects adaptation pathway, repeated-shock evidence, hazard, outcome comparability, permissible claim, and inference ceiling. |
+| Mashiki event-state layer | positive 2016 event-state observation or 2026 passage snapshot | 28 | 17 | Preserves the different 2016 restriction and 2026 probe-passage measurement systems. |
+| Yokoe matched-endpoint layer | endpoint definition | 2 | 18 | Compares restoration timing under the primary full-reopening and early-access sensitivity endpoints. |
+| Candidate-selection ledger | candidate in an official denominator | 65 | 17 | Makes gate unit, identity, geometry, hazard, outcome, inclusion, and exclusion evidence reproducible. |
+| Case-geometry layer | core adaptation case | 2 | 9 | Supplies final verified geometry and geometry-gate basis for map display and linkage auditing. |
+| Claim-sensitivity matrix | claim-scenario pair | 12 | 8 | Classifies each conclusion as robust, measurement dependent, or unsupported. |
 
-### 4.2 Resilience mainline final variables
+The two core cases remain deliberately non-pooled. Repeated observations and endpoint definitions do not increase the number of independent cases.
 
-| Dataset | Final variables | Construction / interpretation |
-|---|---|---|
-| Road network | Road Segment ID; Route Number; Route Class; Route Component; Route Name; Official Geometry Length (m); Centroid Longitude; Centroid Latitude; Geometry | Source attributes are type-normalized, whitespace-trimmed, and retained with valid WGS84 line geometry. |
-| Road restrictions | Snapshot Time; Restriction Record ID; Restriction Feature ID; Prefecture; Municipality; Road Type; Route Name; Start Location; End Location; Restriction Type; Restriction Reason; Restriction Start Time; Restriction Status; Restriction Direction; Restriction Length (km); Observation State; Record Present; Geometry | Snapshot time is retained in Japan Standard Time. The source record ID identifies a reported event; the deterministic feature ID uniquely identifies a source feature without collapsing multi-section events. Observation State is derived from explicit reported status and distinguishes active full closure, active emergency access only, restriction lifted, and unknown status. |
-| Snapshot coverage | Restriction Layer Available; Restriction Feature Count; Absence Interpretation | These fields distinguish a published restriction layer and its feature count from a snapshot in which the layer is absent. Absence is coded as `not_observed_not_open` and never as zero disruption. |
-| Interventions | Intervention ID; Area; Asset Name; Asset Type; Reported Completed Extent; Completed Extent (m); Reported Completion Time; Completion Date Earliest; Completion Date Latest; Completion Status at 2026 Event; Completed Before 2026 Event; Geometry Status; Matched Network Layer; Matched Official Feature IDs; Matched Official Feature Names; Route Match Count; Geometry Use Eligible; Treatment Use Eligible; Quality Flag | Reported completion expressions are retained and translated into explicit earliest/latest intervals. Route-name matching is candidate linkage only; it does not define a completed treatment geometry. |
+### 4.2 Core case and hazard variables
 
-### 4.3 Missingness and quality controls for the resilience mainline
+| variable_name | full_name | role | formal_definition | construction_or_coding | is_final_variable |
+| --- | --- | --- | --- | --- | --- |
+| Case ID | Case Identifier | grouping | Unique identifier for one core adaptation case. | Fixed to one Mashiki corridor case or one Yokoe bridge case. | yes |
+| Case Label | Case Label | display | Article-facing case name. | English readable label. | yes |
+| Adaptation Pathway | Adaptation Pathway | main explanatory | Physical adaptation mechanism separating capacity expansion from structural reconstruction. | Coded as corridor capacity expansion or structural reconstruction. | yes |
+| Adaptation Description | Adaptation Description | explanatory context | Officially documented intervention represented by the case. | Concise description tied to the completed intervention chronology. | yes |
+| Adaptation Completion | Adaptation Completion Date | temporal ordering | Date on which the core adaptation was complete and available before the 2026 event. | Parsed as a calendar date; no missing-date imputation. | yes |
+| Failure Evidence 2016 | 2016 Failure Evidence | baseline evidence | Positive observation of transport failure after the 2016 event. | Preserves named restrictions for Mashiki and same-asset closure for Yokoe. | yes |
+| Performance Evidence 2026 | 2026 Performance Evidence | outcome evidence | Positive observation of transport service or restoration after the 2026 event. | Preserves passage evidence for Mashiki and general-traffic reopening for Yokoe. | yes |
+| Mean MMI 2016 | 2016 Mean Modified Mercalli Intensity | hazard | \(M_{c,2016}\), mean sampled MMI for case \(c\) in 2016. | Computed from the version-pinned shaking surface over the retained case geometry. | yes |
+| Mean MMI 2026 | 2026 Mean Modified Mercalli Intensity | hazard | \(M_{c,2026}\), mean sampled MMI for case \(c\) in 2026. | Computed using the same case geometry and sampling rule. | yes |
+| MMI Difference (2026-2016) | Mean MMI Difference Between 2026 and 2016 | hazard contrast | \(\Delta M_c=M_{c,2026}-M_{c,2016}\). | Positive values indicate higher sampled 2026 MMI. | yes |
+| Mean PGA 2016 (g) | 2016 Mean Peak Ground Acceleration in g | hazard | \(P_{c,2016}\), mean sampled PGA in units of \(g\). | Computed from the version-pinned shaking surface. | yes |
+| Mean PGA 2026 (g) | 2026 Mean Peak Ground Acceleration in g | hazard | \(P_{c,2026}\), mean sampled PGA in units of \(g\). | Computed using the same case geometry and sampling rule. | yes |
+| PGA Ratio (2026/2016) | Mean PGA Ratio for 2026 Relative to 2016 | hazard contrast | \(Q_c=P_{c,2026}/P_{c,2016}\). | Values above one indicate higher sampled 2026 PGA. | yes |
+| Outcome Comparability | Outcome Comparability Classification | measurement boundary | Whether the two event outcomes are definitionally matched. | Matched for Yokoe full reopening; non-equivalent for Mashiki restriction and passage systems. | yes |
+| Evidence Level | Evidence Level | interpretation | Highest evidence level supported by the case. | Coded as structured comparison or directional dominance. | yes |
+| Permissible Claim | Permissible Claim | interpretation | Strongest statement allowed by the verified evidence. | Written before figure and manuscript generation. | yes |
+| Inference Ceiling | Inference Ceiling | interpretation boundary | Strongest prohibited extension beyond the permissible claim. | Explicitly excludes causal or pooled inference. | yes |
+| Core Case | Core Case Indicator | inclusion | Boolean indicator for membership in the two-case core. | True only for Mashiki Central Line and Yokoe Bridge. | yes |
 
-- No missing value is imputed. Changing official schemas explain much of the observed field missingness, including 89.3% for restriction direction, 21.8% for reported restriction length, and 20.8% for restriction start time.
-- All 1,063 restriction geometries and all 433 road geometries are present and valid in WGS84.
-- Observation State contains 900 active full-closure rows, 57 active emergency-access-only rows, 49 restriction-lifted rows, and 57 unknown-status rows. Roads absent from a snapshot are unobserved, not open.
-- The first archive has no restriction layer. It is retained in the coverage series as `not_observed_not_open` rather than as a zero-restriction snapshot.
-- The source restriction event ID repeats within 30 snapshot-event groups because some reported events contain multiple road sections or features. All source features are retained and receive unique deterministic feature IDs.
-- All 20 intervention completion intervals end before the 2026 event, but a completion date alone does not prove that the recorded whole route was upgraded. Partial completion and geometry uncertainty remain explicit.
+### 4.3 Mashiki event-state variables
 
-### 4.4 Resilience analysis gate
+| variable_name | full_name | role | formal_definition | construction_or_coding | is_final_variable |
+| --- | --- | --- | --- | --- | --- |
+| Event | Earthquake Event | grouping | Earthquake episode associated with an observation. | Coded as 2016 mainshock or 2026 earthquake. | yes |
+| Observation Time | Observation Time | temporal | Time at which a positive state or archive snapshot was observed. | Retained in Japan Standard Time; date-only 2016 records remain calendar-day precision. | yes |
+| Subsegment | Observed Corridor Subsegment | spatial unit | Named 2016 subsegment or the retained 2026 corridor polygon. | No route-name-only substitution is allowed. | yes |
+| Observation Type | Observation Type | measurement | Type of positive observation represented by a row. | Coded as official restriction summary or probe passage snapshot. | yes |
+| Observation State | Observed Transport State | outcome | Recorded restriction or passage state. | Layer unavailability, positive passage, and no observed passage remain separate. | yes |
+| Measurement System | Measurement System | measurement boundary | Official observation system producing the state. | Preserves the distinction between restriction reporting and probe passage. | yes |
+| Passage Layer Available | Passage Layer Availability Indicator | coverage | Nullable Boolean indicator that the passage layer was available at the snapshot. | Missing for 2016 restriction summaries; never recoded as false. | yes |
+| Observed Corridor Passage | Observed Corridor Passage Indicator | outcome | Nullable Boolean indicator of positive corridor-aligned passage evidence. | False means no positive trace in an available layer, not confirmed impassability. | yes |
+| Unique Corridor Traces | Unique Corridor-Aligned Probe Traces | outcome intensity | Count of distinct corridor-aligned traces at a 2026 snapshot. | Numeric with missing values retained for 2016 observations. | yes |
+| Longitudinal Coverage Proxy | Longitudinal Corridor Coverage Proxy | outcome intensity | Fraction of corridor longitudinal span represented by positive traces. | Bounded from zero to one; a service-presence proxy, not traffic volume. | yes |
+| Elapsed Hours Since Event | Elapsed Hours Since Earthquake Origin | temporal outcome | \(h_t=(t-t_0)/3600\), where \(t_0\) is the 2026 event origin. | Defined for 2026 snapshots; missing for calendar-day 2016 summaries. | yes |
+| Event-Time Bound | Event-Time Observation Bound | uncertainty | Textual statement of the interval or precision supported by the observation. | Prevents a first observed state from being treated as an exact transition time. | yes |
+| MMI Mean | Mean Modified Mercalli Intensity | hazard | Event-specific mean MMI attached to each Mashiki observation. | Repeated within event for display and joining; not an additional hazard sample. | yes |
+| PGA Mean (g) | Mean Peak Ground Acceleration in g | hazard | Event-specific mean PGA attached to each Mashiki observation. | Repeated within event for display and joining. | yes |
+| Interpretation | Observation Interpretation | interpretation boundary | Row-level statement of what the observed state does and does not establish. | Preserves unavailable-layer and non-impassability safeguards. | yes |
 
-- The restriction time series is eligible for descriptive disruption timing, spatial extent, and network-overlay analyses.
-- Twelve intervention records have a unique candidate official route-name match, but no record has verified completed-subsegment geometry. `Geometry Use Eligible` and `Treatment Use Eligible` are therefore false for all 20 records.
-- A route-name match cannot serve as a treatment boundary. The intervention-effect design remains blocked until exact completed subsegments are recovered or an independently validated alternative exposure definition is established.
-- The processed data do not convert non-reporting into passability. Only one source record ID has an observed active-to-lifted transition, while three other lifted IDs enter the series already lifted; this is not enough to identify a general reopening-time outcome.
+### 4.4 Yokoe matched-endpoint variables
 
-### 4.5 Retained building appendix
+| variable_name | full_name | role | formal_definition | construction_or_coding | is_final_variable |
+| --- | --- | --- | --- | --- | --- |
+| Endpoint Definition | Restoration Endpoint Definition | outcome definition | Recovery endpoint used for the cross-event timing contrast. | Full general-traffic reopening is primary; 2016 light-vehicle access is sensitivity only. | yes |
+| Endpoint Role | Endpoint Analytical Role | robustness | Analytical role of the endpoint definition. | Coded as primary matched endpoint or early-access sensitivity. | yes |
+| Restoration Hours Lower Bound 2016 | 2016 Restoration Hours Lower Bound | outcome | \(T_{Y,2016}^{L}\), lower elapsed-hour bound from the 2016 event to the endpoint. | Derived from official event and milestone timestamps. | yes |
+| Restoration Hours Upper Bound 2016 | 2016 Restoration Hours Upper Bound | outcome | \(T_{Y,2016}^{U}\), upper elapsed-hour bound from the 2016 event to the endpoint. | Calendar-day uncertainty remains interval-valued. | yes |
+| Restoration Hours Lower Bound 2026 | 2026 Restoration Hours Lower Bound | outcome | \(T_{Y,2026}^{L}\), lower elapsed-hour bound from the 2026 event to reopening. | Equal to the confirmed timestamp estimate when exact to the minute. | yes |
+| Restoration Hours Upper Bound 2026 | 2026 Restoration Hours Upper Bound | outcome | \(T_{Y,2026}^{U}\), upper elapsed-hour bound from the 2026 event to reopening. | Equal to the lower bound for the confirmed terminal record. | yes |
+| Restoration Ratio Lower Bound (2026/2016) | Lower Bound of 2026-to-2016 Restoration-Time Ratio | outcome contrast | \(R_Y^{L}=T_{Y,2026}^{L}/T_{Y,2016}^{U}\). | Values below one indicate faster restoration in 2026. | yes |
+| Restoration Ratio Upper Bound (2026/2016) | Upper Bound of 2026-to-2016 Restoration-Time Ratio | outcome contrast | \(R_Y^{U}=T_{Y,2026}^{U}/T_{Y,2016}^{L}\). | Direction is robust only when the upper bound remains below one. | yes |
+| Faster in 2026 | Faster Restoration in 2026 Indicator | outcome direction | \(1(R_Y^{U}<1)\). | Evaluated separately for both endpoint definitions. | yes |
+| Hazard Direction | Cross-Event Hazard Direction | hazard interpretation | Direction of MMI and PGA change between events. | Reports whether both metrics rank 2026 as stronger. | yes |
+| Outcome Gate | Outcome Evidence Gate | evidence gate | Status of the final official reopening evidence. | Applies the declared source-precedence rule. | yes |
 
-The earlier building and imagery work is retained as a measurement appendix rather than as the central outcome. Its failed attribution and individualization gates are evidence boundaries for the road-resilience study.
+### 4.5 Candidate-selection variables
 
-#### 4.5.1 Processed datasets
+| variable_name | full_name | role | formal_definition | construction_or_coding | is_final_variable |
+| --- | --- | --- | --- | --- | --- |
+| Candidate ID | Candidate Identifier | grouping | Unique identifier within the consolidated selection ledger. | Prefix distinguishes official candidate universes. | yes |
+| Candidate Universe | Official Candidate Universe | selection denominator | Official denominator from which the candidate was screened. | Separates local projects, restored bridges, bridge-damage records, and contextual reconstructions. | yes |
+| Candidate Label | Candidate Label | display | Readable project, bridge, route, or asset name. | Preserves official identity where available. | yes |
+| Route | Route Name | spatial identity | Official route associated with the candidate. | Missing values remain missing. | yes |
+| Location | Candidate Location | spatial identity | Municipality, address, or project area used for identity checks. | No proximity-only record is promoted to exact identity. | yes |
+| Adaptation Completion Record | Adaptation Completion Record | temporal ordering | Available completion status or date for a candidate. | Stored as the reported record because precision varies across universes. | yes |
+| Evidence 2016 | 2016 Evidence Summary | eligibility | Positive 2016 evidence attached to the candidate. | May record restriction points, restoration inventory membership, or named closure history. | yes |
+| Evidence 2026 | 2026 Evidence Summary | eligibility | Positive 2026 evidence attached to the candidate. | Exact outcome and proximity evidence remain distinguished. | yes |
+| Gate Unit | Admissibility Gate Evaluation Unit | selection unit | Unit at which identity, geometry, hazard, and outcome evidence is judged. | Coded as nested corridor cluster, project stage, same physical bridge, or contextual asset or corridor. | yes |
+| Identity Gate | Identity Gate Indicator | inclusion gate | Boolean indicator that route or asset identity is compatible across evidence sources. | Exact asset identity is required for the bridge core case. | yes |
+| Geometry Gate | Geometry Gate Indicator | inclusion gate | Boolean indicator that the retained geometry supports the proposed linkage at Gate Unit. | Mashiki is evaluated at the verified nested corridor-cluster geometry; proximity alone fails the gate. | yes |
+| Geometry Gate Basis | Geometry Gate Evidence Basis | traceability | Concise description of the spatial evidence used to assign Geometry Gate. | Distinguishes a verified aggregate corridor polygon, exact bridge geometry, missing exact geometry, and proximity-only evidence. | yes |
+| Hazard Gate | Hazard Comparability Gate | inclusion gate | Status of repeated-shock comparability under MMI and PGA. | May be pass, fail, metric dependent, or unavailable. | yes |
+| Outcome Gate | Outcome Gate Indicator | inclusion gate | Boolean indicator that the case has a positive outcome with admissible meaning. | Does not convert archive absence into a negative outcome. | yes |
+| Core Status | Core Inclusion Status | inclusion | Final core, contextual, nested-cluster, or exclusion status. | Nested Mashiki stages count as one core cluster. | yes |
+| Exclusion Reason | Core Exclusion Reason | selection boundary | Binding reason a candidate is excluded from the core. | Empty only when no exclusion applies. | yes |
 
-| Dataset | Unit / rows | Role | Status |
-|---|---:|---|---|
-| Image-covered building candidate frame | PLATEAU building / 2,614 | Candidate frame with screening scores | Reproducible |
-| Building calibration sample | sampled building / 100 | Deterministic, enriched, spatially balanced calibration panel | Reproducible; not prevalence-representative |
-| Labeled building calibration sample | sampled building / 100 | Two-pass AI-reviewed visible-change labels and temporal limitations | Exploratory; not independent validation |
+### 4.6 Case-geometry variables
 
-#### 4.5.2 Source and constructed variables
+| variable_name | full_name | role | formal_definition | construction_or_coding | is_final_variable |
+| --- | --- | --- | --- | --- | --- |
+| Case ID | Case Identifier | grouping | Identifier linking geometry to one core adaptation case. | Fixed to Mashiki Central Line or Yokoe Bridge. | yes |
+| Case Label | Case Label | display | Article-facing case name attached to the geometry. | English readable label. | yes |
+| Adaptation Pathway | Adaptation Pathway | display | Pathway represented by the retained geometry. | Corridor capacity expansion or structural reconstruction. | yes |
+| Geometry Role | Case Geometry Role | display | Spatial role of the retained geometry. | Official aggregate planning corridor polygon for Mashiki; exact official bridge-damage restriction segment for Yokoe. | yes |
+| Gate Unit | Admissibility Gate Evaluation Unit | selection unit | Analytical unit to which the geometry gate applies. | Nested corridor cluster for Mashiki and same physical bridge for Yokoe. | yes |
+| Geometry Gate | Geometry Gate Indicator | inclusion gate | Boolean indicator that the final geometry supports linkage at Gate Unit. | True for both final core-case geometries after verification. | yes |
+| Geometry Gate Basis | Geometry Gate Evidence Basis | traceability | Evidence basis for final geometry eligibility. | Preserves the verified corridor or exact bridge-segment basis. | yes |
+| Geometry | Case Geometry | display geometry | Spatial object used for locator display and linkage auditing. | Retained in WGS 84; not treated as an additional outcome or independent case. | yes |
 
-| Variable | Type | Construction / interpretation | Analysis status |
-|---|---|---|---|
-| `GML ID` | string | Stable PLATEAU source identifier | Candidate linkage key |
-| `Footprint Geometry` | EPSG:3857 geometry | CityGML building surfaces converted to XY multipolygons and repaired with `buffer(0)` | Screening geometry; some roof-edge surfaces remain unusable |
-| `Height (m)` | float | PLATEAU `measuredHeight`; nonpositive and 9,999 sentinels converted to missing | Candidate covariate |
-| `Storeys Above Ground` | nullable integer | PLATEAU `storeysAboveGround`; 9,999 converted to missing | Candidate covariate |
-| `Survey Year` | nullable string | PLATEAU survey year; `0001` sentinel converted to missing | Provenance / quality field |
-| `2016 Change Score` | float | Histogram-matched SSIM, edge difference, and RGB difference after local phase-correlation alignment | Candidate enrichment only; not a damage label |
-| `2026 Change Score` | float | Same construction for FY2023 baseline versus 2026 post-event imagery | Long-interval change screening only |
-| `Sampling Stratum` | category | 25 stable-low, 25 high-2016, 25 high-2026, and 25 general spatial candidates, sampled with seed 20260818 | Calibration design; no population prevalence inference |
-| `Adjudicated 2016 Label` | category | `clear_visible_change`, `possible_visible_change`, `no_visible_change`, or `target_absent_or_uninterpretable` | Candidate mainshock proxy only |
-| `2016 Mainshock Proxy Status` | category | Maps the adjudicated label to candidate/uncertain/no-change/not-usable status | Baseline is already post-foreshock |
-| `Adjudicated 2026 Label` | category | Same visual vocabulary applied to FY2023–2026 comparison | Not an event-damage variable |
-| `2026 Event Attribution Eligible` | boolean | Fixed to `False` because the baseline-to-event interval is too long | Excluded from causal damage analysis |
+### 4.7 Claim-sensitivity variables
 
-#### 4.5.3 Missingness and quality controls
+| variable_name | full_name | role | formal_definition | construction_or_coding | is_final_variable |
+| --- | --- | --- | --- | --- | --- |
+| Claim ID | Claim Identifier | grouping | Stable identifier for a proposed substantive claim. | Multiple sensitivity scenarios may share one Claim ID. | yes |
+| Claim | Evaluated Claim | interpretation | Claim subjected to a robustness or evidence-boundary check. | Written at the same specificity used in Results. | yes |
+| Sensitivity Dimension | Sensitivity Dimension | robustness | Measurement or design dimension varied by the scenario. | Includes hazard, endpoint, coverage, outcome equivalence, denominator, geometry, and source precedence. | yes |
+| Scenario | Sensitivity Scenario | robustness | Prespecified alternative definition or audit condition. | One row per claim-scenario pair. | yes |
+| Result | Sensitivity Result | robustness outcome | Observed pass, fail, or metric-dependent result. | Records direction and key quantity without pooling cases. | yes |
+| Classification | Robustness Classification | interpretation | Final classification of the claim under the scenario. | Coded as robust, measurement dependent, audit robust, or unsupported. | yes |
+| Evidence | Supporting Evidence | traceability | Concise description of the evidence supporting the classification. | Detailed source hashes remain in non-final traceability fields. | yes |
 
-- Four of 2,614 candidates have missing height, 362 have missing storeys, and 325 have missing survey year after sentinel normalization. The 100-building calibration panel has 0, 14, and 11 missing values, respectively.
-- Candidate footprints require 99.5% primary-flight-strip alpha coverage in both 2016 and 2026 and roof area between 40 and 400 square metres.
-- Raw GSI and PLATEAU files are never modified.
-- Blind review was followed by a date-revealed consistency pass by the same AI reviewer. This does not establish inter-rater reliability or validated damage ground truth.
+### 4.8 Preprocessing and quality rules
 
-#### 4.5.4 Calibration gate
+- No missing value is imputed.
+- String values are whitespace-trimmed; numeric fields are parsed with invalid values retained as missing.
+- Observation Time and Adaptation Completion are parsed as dates or datetimes. Mashiki Observation Time is retained in Japan Standard Time.
+- Passage Layer Available and Observed Corridor Passage are nullable Boolean variables because those concepts do not apply to the 2016 restriction summaries.
+- Hash and official-source reference fields remain in the processed products for auditability but are not final analytical variables.
+- The 65-row candidate ledger contains 12 local projects, 37 restored bridges, 13 bridge-damage records, and 3 contextual reconstruction candidates. These rows represent four official denominators and are not an estimation sample.
+- Included records must have Identity Gate, Geometry Gate, and Outcome Gate equal to true at Gate Unit. Hazard Gate must be pass or explicitly metric dependent; metric dependence is never reported as an unconditional pass.
+- The verified Mashiki corridor polygon is promoted into the final processed geometry layer, so final figures no longer depend on an experimental-only display geometry.
+- Yokoe appears through both the restored-bridge and bridge-damage denominators; these are two audit perspectives on one case, not two independent cases.
 
-- 2016 imagery conditionally supports visual screening of candidate changes occurring between the post-foreshock and post-mainshock acquisitions.
-- 2026 imagery fails the event-attribution gate with the FY2023 baseline.
-- The automated change score fails the stand-alone classification gate (2016 enriched-panel ROC AUC 0.618; 2026 long-interval-change ROC AUC 0.683).
-- Detailed results are retained in the building-label calibration audit.
+### 4.9 Analytical eligibility gate
 
-#### 4.5.5 PLATEAU cross-release building panel
-
-| Dataset | Unit / rows | Role | Status |
-|---|---:|---|---|
-| Earlier building inventory | PLATEAU building / 7,223 | Standardized earlier building inventory | Reproducible |
-| Later building inventory | PLATEAU building / 8,252 | Standardized later building inventory | Reproducible |
-| Cross-release match candidates | spatial candidate pair / 34,367 | Continuous geometry-linkage metrics within 12 m | Reproducible; not one-to-one |
-| Cross-release building panel | panel record / 9,039 | Conservative one-to-one links plus unmatched and ambiguous records | Candidate reconstruction panel; not validated outcome |
-
-| Variable | Type | Construction / interpretation | Analysis status |
-|---|---|---|---|
-| `Construction Year` | nullable string | Source-reported construction year; unknown sentinels normalized to missing | Covariate; available only in the earlier release and 57.8% missing |
-| `Building Use Code` | nullable integer | Source building-use category | Descriptive covariate |
-| `Structure Type Code` | nullable integer | Source structural-system category | Descriptive covariate |
-| `Computed Footprint Area (m2)` | float | Area of repaired EPSG:3857 footprint geometry | Matching input |
-| `IoU` | float | Intersection area divided by union area for a candidate pair | Continuous linkage evidence |
-| `2020 Coverage Ratio` | float | Pair intersection area divided by the earlier footprint area | Split / merge diagnostic |
-| `2023 Coverage Ratio` | float | Pair intersection area divided by the later footprint area | Split / merge diagnostic |
-| `Centroid Distance (m)` | float | Distance between candidate footprint centroids | Linkage diagnostic |
-| `Footprint Gap (m)` | float | Minimum boundary-to-boundary distance between candidate footprints | Linkage diagnostic |
-| `Area Similarity` | float | Smaller computed footprint area divided by larger computed footprint area | Linkage diagnostic |
-| `Match Status` | category | `retained`, `suspected_rebuild`, `disappeared`, `new`, or `ambiguous` under recorded conservative thresholds | Screening status only |
-
-- PLATEAU release year is not the same as source observation year. All 7,223 earlier-release buildings report survey year 2017. In the later release, 5,777 buildings report survey year 2021 and 2,475 have no survey year. The common creation date 2024-03-31 is a record date, not a building construction date.
-- Cross-release building identifiers do not provide continuity: none of the selected one-to-one pairs has an identical source `Building ID`. Matching therefore rests on geometry rather than a persistent administrative identifier.
-- Baseline classification yields 5,738 retained pairs, 698 suspected rebuild pairs, 550 disappeared earlier footprints, 1,595 new later footprints, and 458 ambiguous records.
-- The retained-versus-suspected-rebuild boundary is threshold-sensitive: suspected rebuild counts range from 341 to 989 across the recorded relaxed and strict scenarios. `suspected_rebuild` is therefore a candidate footprint-replacement state, not a validated reconstruction outcome.
-- Detailed integrity checks, metric quantiles, missingness, and threshold sensitivity are retained in the building-panel audit.
-
-#### 4.5.6 Multi-date reconstruction-candidate validation
-
-| Dataset | Unit / rows | Role | Status |
-|---|---:|---|---|
-| Reconstruction-validation sample | sampled panel building / 100 | Deterministic spatial sample with 20 buildings per candidate status and pairwise image metrics | Reproducible; stratified, not prevalence-representative |
-| First-round adjudicated sample | sampled panel building / 100 | Date-revealed first-round labels and adjacent-pair consistency checks | Intermediate review evidence |
-| Final reconstruction-validation sample | sampled panel building / 100 | Two-round conservative labels, exclusions, inventory-status assessment, and eligibility flags | Calibration evidence; not official reconstruction truth |
-
-| Variable | Type | Construction / interpretation | Analysis status |
-|---|---|---|---|
-| `Source Match Status` | category | Stratification variable copied from the cross-release panel; 20 each of retained, suspected rebuild, disappeared, new, and ambiguous | Sampling only; hidden during visual review |
-| `Pair 1 Ordered Transition` | category | Blind visual comparison of 2016-04-15 post-foreshock versus 2016-04-16 post-mainshock imagery, restored to date order after labeling | Image-visible event-window transition |
-| `Pair 2 Ordered Transition` | category | Blind comparison of 2016-04-16 post-mainshock versus official 2020-11 PLATEAU orthophoto | Recovery-period visible transition |
-| `Pair 3 Ordered Transition` | category | Blind comparison of the 2020-11 orthophoto versus the FY2023 orthophoto release | Inventory calibration; exact later flight date unresolved |
-| `Final Pair * Confidence` | ordered category | High, medium, or low reviewer confidence after targeted second-round review | Required for eligibility filtering |
-| `Final * Cross-Pair Consistent` | boolean | Checks whether the same intermediate date is assigned a compatible presence state in adjacent comparisons | Record-level quality flag |
-| `Final Inventory Status Visual Assessment` | category | Conservative comparison between the final image-pair transition and the candidate PLATEAU status | Calibration assessment only |
-| `Final Inventory Validation Eligible` | boolean | Requires high/medium confidence for pairs 2-3, interpretable nonconflicting transitions, and consistent 2020 state | Primary inventory-calibration subset |
-| `Final Longitudinal Validation Eligible` | boolean | Applies the same restrictions across all three date pairs and both intermediate dates | Four-image trajectory subset |
-
-- The first round completed all 300 pair labels; 268 (89.3%) were high or medium confidence and 6 (2.0%) were uninterpretable.
-- A second independently re-randomized blind pass targeted 53 low-confidence or cross-pair-inconsistent comparisons. Exact ordered-transition agreement in this deliberately difficult subset was 20/53 (37.7%); 10 equal-confidence disagreements were excluded instead of being forced.
-- The conservative final sample contains 91 inventory-validation-eligible records and 82 fully longitudinal eligible records. These counts describe a balanced calibration sample and cannot estimate population prevalence.
-- The official FY2020 orthophoto was photographed in November 2020 at 40 cm source resolution. The FY2023 orthophoto release does not yet have a verified flight date, so release year is not treated as acquisition year.
-- Image review validates visible presence or form change, not earthquake causation, ownership, demolition permits, or legally recorded reconstruction. External validation against the requested official reconstruction register remains necessary.
-- Round-specific and final evidence is retained in the reconstruction-validation audits.
-
-#### 4.5.7 Full-panel reconstruction calibration and failed individualization gate
-
-| Variable | Type | Construction / interpretation | Analysis status |
-|---|---|---|---|
-| `Calibration Domain` | category | `in_sampling_domain` applies the validation sample's four-image coverage, 30-800 m2 area, maximum 60 m width/height, and 37 m edge-margin rules; all other records are explicit extrapolations | Required stratification flag |
-| `Conservative Recovery Status-Calibrated Probability` | float | Jeffreys-Beta posterior mean within each source match status; positive means absent immediately after the mainshock and present in 2020, while visible-change-only cases are excluded | Primary status-level sensitivity parameter; not an individual probability |
-| `Conservative Recovery Probability 95% Low/High` | float | Equal-tailed 95% posterior interval for the status-level conservative probability | Required uncertainty bounds |
-| `Inclusive Visible Replacement Status-Calibrated Probability` | float | Treats absent-to-present and changed-present-to-present as positive | Upper-definition sensitivity only |
-| `Inclusive Visible Replacement Probability 95% Low/High` | float | Equal-tailed 95% posterior interval for the inclusive definition | Sensitivity bounds |
-| `Shock Linked Recovery Status-Calibrated Probability` | float | Requires present-to-absent across the mainshock and absent-to-present by 2020 | Event-linked sensitivity definition |
-| `Shock Linked Recovery Probability 95% Low/High` | float | Equal-tailed 95% posterior interval for the shock-linked definition | Sensitivity bounds |
-| `Individual Probability Use Eligible` | boolean | Requires the predeclared spatial cross-validation gate for individual prediction | Fixed to `False` for all 9,039 records |
-
-- The full scored panel contains 9,039 records: 4,582 are in the original image/size sampling domain and 4,457 are flagged as extrapolations.
-- The conservative status-calibrated expected count is 4,461, with a 95% interval of 2,639-6,269. It is an uncertainty scenario rather than a credible reconstruction total.
-- Outcome-definition sensitivity dominates: the population-weighted expected share ranges from 18.7% under the shock-linked definition to 75.8% under the inclusive definition.
-- Five-fold spatially grouped ROC AUC is 0.557 for conservative recovery, 0.493 for inclusive visible replacement, and 0.483 for shock-linked recovery. All Brier scores are worse than the matching constant-prevalence benchmark.
-- All three individualized models fail the predeclared gate of ROC AUC at least 0.70 and Brier improvement of at least 0.02. Individual diagnostic scores remain reproducibility evidence only and must not be used for ranking, thresholding, causal estimation, or publication claims.
-- Symmetric and asymmetric false-positive/false-negative scenarios from 0% to 20% are retained in the measurement-error sensitivity evidence.
-- The reconstruction-calibration audit preserves the full diagnostics. Official reconstruction records or a substantially larger independent labeled sample are required before reconstruction can serve as the central outcome.
+- The two-case evidence layer is eligible for structured comparative synthesis only.
+- The Mashiki event-state layer is eligible for passage timing bounds and observation-coverage analysis. It is not eligible for a like-for-like restoration ratio.
+- The Yokoe matched-endpoint layer is eligible for endpoint-specific restoration ratios and directional-dominance statements. It is not eligible for a causal reconstruction effect.
+- The candidate ledger is eligible for selection and transferability auditing, not for regression or frequency inference.
+- The case-geometry layer is eligible for map display and geometry-gate auditing only; its two rows do not enlarge the analytical case count.
+- The claim-sensitivity matrix is eligible for assigning evidence ceilings to figures, tables, and manuscript statements.
+- Legacy four-unit recovery, general road-restriction, and building products remain available as supplementary or process evidence but are not part of the final core variable contract.
 
 ## 5. Identification Strategy
 
-### 5.1 Current-stage design principle
+### 5.1 Design principle
 
-The current stage is a bounded descriptive infrastructure-disruption and evidence-readiness study. It estimates properties of the official 2026 restriction record, its spatial relationship to the Mashiki road network, and the analytical eligibility of intervention and building evidence. It does not estimate a resilience dividend, restoration effect, or causal intervention effect.
+The study is a structured comparative repeated-shock mechanism analysis with two deliberately non-pooled cases. It follows the common sequence `2016 shock -> documented failure -> completed adaptation -> 2026 shock -> observed performance`, but it does not assume that the two adaptation pathways or outcomes share a common estimand. Mashiki Central Line is a corridor-level capacity-expansion case observed through official restriction summaries in 2016 and probe-passage snapshots in 2026. Yokoe Bridge is a same-asset structural-reconstruction case observed through restoration milestones in both events.
 
-The unit of the temporal analysis is the reported restriction feature by official snapshot. The unit of the spatial diagnostic is the official road feature overlaid with reported restriction geometry. The unit of the intervention audit is the documented intervention. These units are not treated as interchangeable.
+Identification is descriptive and gate based. The analysis establishes temporal order, exact case identity, event-specific hazard, observed outcome direction, sensitivity to admissible measurement choices, and an explicit inference ceiling. It does not estimate an untreated counterfactual, an average treatment effect, or a pooled resilience dividend.
 
-### 5.2 Identification logic
+### 5.2 Case-specific identification logic
 
-| Evidence layer | Section 4 inputs | Identification role | Permitted interpretation | Prohibited interpretation |
+| Evidence component | Section 4 variables | Identification role | Permitted interpretation | Prohibited interpretation |
 |---|---|---|---|---|
-| Observation coverage | Snapshot Time; Restriction Feature ID; Record Present; Observation State; Restriction Layer Available; Restriction Feature Count; Absence Interpretation | Establishes when restriction features were observable, whether a restriction layer was supplied, and whether reported features were active, lifted, or unknown | Officially observed reporting intensity and state composition | Absence means open; all listed features are active; falling counts mean recovery |
-| Restriction composition | Restriction Type; Restriction Status; Restriction Reason; Road Type; Municipality; Restriction Length (km) | Describes the reported disruption portfolio and field completeness | Composition and extent among reported features | Population-wide closure prevalence or total affected length |
-| Spatial progression | Snapshot Time; Geometry; Municipality; Road Type; Route Name | Shows where reported restrictions appear and persist across snapshots | Geography of reported disruption | Stable road-segment restoration without validated linkage |
-| Road-network overlap | Road Segment ID; Route Class; Route Name; Geometry; Restriction Feature ID | Tests whether reported geometries can be related to the official Mashiki network | Spatial-linkage readiness and sensitivity | A definitive segment treatment or reopening state |
-| Intervention eligibility | Intervention ID; Asset Type; Completion Date Earliest; Completion Date Latest; Route Match Count; Geometry Use Eligible; Treatment Use Eligible; Quality Flag | Tests whether documented interventions have the timing and geometry needed for exposure assignment | Evidence maturity and remaining linkage loss | Causal effects of reconstruction investment |
-| Measurement gates | Final Inventory Validation Eligible; Final Longitudinal Validation Eligible; 2026 Event Attribution Eligible; Individual Probability Use Eligible; Geometry Use Eligible; Treatment Use Eligible | Makes exclusion rules observable and reproducible | Which evidence streams may enter later analysis | Treating a failed proxy as an outcome or treatment |
+| Common case contract | Case ID; Case Label; Adaptation Pathway; Adaptation Description; Adaptation Completion; Failure Evidence 2016; Performance Evidence 2026; Core Case | Verifies that each adaptation follows a documented 2016 failure and was complete before the 2026 stress test | Two traceable pathway-specific repeated-shock cases | Random treatment assignment, common support, or a natural experiment |
+| Mashiki service evidence | Event; Observation Time; Subsegment; Observation Type; Observation State; Measurement System; Passage Layer Available; Observed Corridor Passage; Unique Corridor Traces; Longitudinal Coverage Proxy; Elapsed Hours Since Event; Event-Time Bound | Preserves the distinct 2016 restriction and 2026 passage systems and estimates bounded 2026 service-presence timing | Positive observed passage and longitudinal-coverage trajectory consistent with capacity tolerance | A like-for-like recovery duration, uninterrupted prior passage, normal traffic, or an undamaged road |
+| Yokoe restoration evidence | Endpoint Definition; Endpoint Role; Restoration Hours Lower Bound 2016; Restoration Hours Upper Bound 2016; Restoration Hours Lower Bound 2026; Restoration Hours Upper Bound 2026; Restoration Ratio Lower Bound (2026/2016); Restoration Ratio Upper Bound (2026/2016); Faster in 2026; Outcome Gate | Compares the same bridge under matched or explicitly varied reopening endpoints while retaining timing bounds | Direction and magnitude of the within-asset restoration-time contrast | A causal reconstruction effect or an average bridge effect |
+| Hazard context | Mean MMI 2016; Mean MMI 2026; MMI Difference (2026-2016); Mean PGA 2016 (g); Mean PGA 2026 (g); PGA Ratio (2026/2016); Hazard Direction | Tests whether the cross-event severity ordering is stable across MMI and PGA | Case-specific hazard dominance or metric dependence | Treating one shaking measure as complete event equivalence |
+| Selection audit | Candidate Universe; Candidate Label; Gate Unit; Identity Gate; Geometry Gate; Geometry Gate Basis; Hazard Gate; Outcome Gate; Core Status; Exclusion Reason | Applies unit-consistent admissibility rules to complete official candidate denominators | Reproducible case inclusion, negative cases, and transferability limits | Treating denominator records as an estimation sample, project stages as independent cases, or proximity as identity |
+| Claim audit | Claim ID; Claim; Sensitivity Dimension; Scenario; Result; Classification; Evidence; Inference Ceiling | Tests every substantive statement against prespecified alternative definitions and source rules | Robust, measurement-dependent, audit-robust, or unsupported claim classification | Silently selecting only favorable definitions |
 
-### 5.3 Relationship to the research questions
+### 5.3 Admissibility gates
 
-- The central repeated-shock question remains inconclusive because 2016 exposure, comparable 2026 hazard, stable road-level restoration time, and eligible intervention geometry do not yet form a linked analytical panel.
-- The intervention-mechanism question is not currently testable: all 20 Treatment Use Eligible values are false.
-- The network and service mechanism is only partially addressed through road-network overlap. Community isolation and critical-facility access variables are not available as final variables.
-- The spatial-inequality question is not currently testable because comparable demographic vulnerability, terrain, and network-redundancy measures are not present in the final-variable set.
-- The robustness and evidence-boundary question is directly supported through explicit observation, missingness, geometry, attribution, and eligibility gates.
+A candidate can enter the two-case core only when the Boolean gates pass at the declared Gate Unit and the hazard gate is admissible. An admissible Hazard Gate is either `pass` or `metric dependent`; the latter preserves the case only with an explicit measurement boundary and is never described as an unconditional pass.
 
-### 5.4 Interpretation limits and stopping rules
+1. **Temporal gate:** Adaptation Completion follows the documented 2016 failure and precedes the 2026 earthquake.
+2. **Identity gate:** Identity Gate confirms the same asset or the declared corridor at Gate Unit; route-name similarity alone is insufficient.
+3. **Geometry gate:** Geometry Gate confirms that the observed outcome is spatially attributable at Gate Unit, and Geometry Gate Basis records the evidence used; proximity alone is insufficient.
+4. **Hazard gate:** Hazard Gate provides repeated-shock evidence at the final case geometry and records `pass`, `metric dependent`, `fail`, or unavailable. `Metric dependent` is admissible only for a bounded, metric-specific conclusion.
+5. **Outcome gate:** Outcome Gate confirms a positive outcome with an admissible interpretation; archive absence is not recoded as a negative outcome.
 
-- Active, lifted, and unknown reported states are shown separately. A decline in active features is described as a reporting-series change, not restoration, unless stable segment linkage and an observed transition to a passable state are established.
-- Reported restriction length is summarized only among nonmissing values and is accompanied by its missing fraction.
-- A spatial overlay is a linkage diagnostic. It does not create a treatment indicator.
-- Candidate route-name matching is never substituted for completed-subsegment geometry.
-- No regression coefficient, survival curve, or causal contrast is produced at this stage.
-- Restriction Layer Available, Restriction Feature Count, and Absence Interpretation are final variables. The first timeline figure and snapshot-coverage table may use them while retaining the non-reporting safeguard.
+The three retained Mashiki project stages inherit the verified official aggregate corridor polygon at the nested corridor-cluster Gate Unit and do not increase the case count. Yokoe records appearing in both bridge denominators are two audit views of one physical bridge and likewise do not increase the case count.
+
+### 5.4 Relationship to the research questions and planned outputs
+
+- The central question is addressed by Kumamoto Repeated-Shock Cases and Adaptation Pathways and the transposed Two-Pathway Repeated-Shock Evidence Matrix. These outputs establish the paired mechanism insight while keeping the outcome systems separate.
+- The pathway-mechanism question is addressed by the Mashiki and Yokoe case figures. Their evidence can show physical and chronological consistency with the declared pathways, not causal mediation.
+- The repeated-shock performance question is addressed by the Mashiki service-presence timing framework and the Yokoe interval-valued restoration ratio. Only Yokoe has a matched restoration endpoint.
+- The selection and transferability question is addressed by Case Selection and Inference Boundaries and Candidate Selection Gate Summary using the four complete official candidate universes.
+- The robustness question is addressed by the Yokoe endpoint sensitivity, case-specific MMI and PGA contrasts, and Claim Robustness and Inference Ceilings.
+
+Section 8 can support all five Section 1 questions at their declared descriptive evidence levels. No planned output supports a pooled effect, a natural-experiment claim, network-wide accessibility benefits, or population-level statistical inference.
+
+### 5.5 Interpretation limits and stopping rules
+
+- The effective analytical core is two heterogeneous cases. Snapshots, endpoints, project stages, candidates, and sensitivity scenarios are not independent treatment observations.
+- Mashiki's 2016 restriction and 2026 passage records remain non-equivalent outcomes. No cross-event restoration ratio is calculated for Mashiki.
+- A first positive Mashiki snapshot is an upper bound on the onset of observed passage. A snapshot with no positive trace is not evidence of impassability, and an unavailable passage layer is not a zero.
+- Yokoe is eligible for a same-asset ratio only when the 2016 and 2026 endpoints are explicitly named. Faster restoration under both endpoints establishes directional robustness, not attribution to reconstruction alone.
+- MMI and PGA are both reported. If they disagree on cross-event severity, the hazard premise is classified as measurement dependent.
+- Every excluded candidate remains visible in the machine-readable ledger. An additional candidate passing the same gates triggers a case-selection update before manuscript claims are finalized.
+- No regression, pooled summary, p-value, population confidence interval, event-study coefficient, or causal effect is produced from the two core cases.
 
 ## 6. Main Estimation Framework
 
-### 6.1 Snapshot-level reporting statistics
+The equations below define the study's descriptive estimands and decision algorithms. Notation is reused consistently across subsections; each later equation defines only newly introduced symbols.
 
-For each official snapshot and normalized observation state, the observed feature count, active-state reported length, and active-state length-field missing fraction are:
+### 6.1 Common case and hazard framework
 
-\[
-N_{st} = \sum_{k=1}^{K} 1(T_k=t)1(S_k=s), \qquad
-N_t = \sum_s N_{st}.
-\]
+For core case \(c\), the cross-event MMI difference and PGA ratio are:
 
 \[
-L_t^{active,obs} = \sum_{k:T_k=t} 1(A_k=1)1(M_k=1)\ell_k, \qquad
-q_t^{active} = 1 - \frac{\sum_{k:T_k=t}1(A_k=1)1(M_k=1)}{\sum_{k:T_k=t}1(A_k=1)}.
+\Delta M_c = M_{c,2026} - M_{c,2016}, \qquad
+Q_c = \frac{P_{c,2026}}{P_{c,2016}}.
 \]
 
-Here, \(N_{st}\) is the number of unique Restriction Feature ID values in Observation State \(s\) at Snapshot Time \(t\); \(K\) is the total number of observed features; \(T_k\) is the Snapshot Time of feature \(k\); \(S_k\) is its Observation State; and \(N_t\) is the total reported feature count. \(A_k\) equals one for active full closure or active emergency access only; \(M_k\) equals one when Restriction Length (km) is observed; \(\ell_k\) is the reported length of feature \(k\); \(L_t^{active,obs}\) is observed reported length among active features; and \(q_t^{active}\) is the active-feature length missing fraction. \(L_t^{active,obs}\) is not interpreted as total restricted network length.
+Here, \(c\) indexes Mashiki Central Line or Yokoe Bridge; \(M_{c,e}\) is Mean MMI for case \(c\) in event \(e\); \(P_{c,e}\) is Mean PGA in units of \(g\); \(\Delta M_c\) is MMI Difference (2026-2016); and \(Q_c\) is PGA Ratio (2026/2016). Positive \(\Delta M_c\) and \(Q_c>1\) both indicate stronger sampled 2026 shaking. If the two measures disagree, the hazard comparison is measurement dependent. No composite shaking index is constructed.
 
-For category \(c\), the reported composition at snapshot \(t\) is:
+The common evidence layer joins Adaptation Pathway, Adaptation Completion, Failure Evidence 2016, Performance Evidence 2026, Outcome Comparability, Evidence Level, Permissible Claim, and Inference Ceiling to these hazard contrasts. It generates Kumamoto Repeated-Shock Cases and Adaptation Pathways and the transposed Two-Pathway Repeated-Shock Evidence Matrix.
+
+### 6.2 Mashiki service-presence framework
+
+Let \(A_t\) equal one when Passage Layer Available is true at 2026 snapshot \(t\), and let \(P_t\) equal one when Observed Corridor Passage is true in an available layer. The share of available snapshots with positive passage is:
 
 \[
-\pi_{ct} = \frac{\sum_{k=1}^{K}1(T_k=t)1(C_k=c)}{N_t}.
+S_M = \frac{\sum_{t \in \mathcal{T}_M} A_t P_t}{\sum_{t \in \mathcal{T}_M} A_t}.
 \]
 
-Here, \(\pi_{ct}\) is the share of observed features in category \(c\), and \(C_k\) is the selected Observation State, Restriction Type, Restriction Status, Road Type, or Municipality category for feature \(k\). Categories with missing values remain an explicit missing group.
+Here, \(\mathcal{T}_M\) is the ordered set of Mashiki 2026 snapshots and \(S_M\) is the observed service-presence share among available passage layers. It is a coverage-normalized description of the archive, not a probability of road availability.
 
-These statistics generate 2026 Road Restriction Observation Timeline and Road Restriction Composition and Missingness.
-
-### 6.2 Spatial-progression and network-overlap diagnostics
-
-Reported restriction Geometry is plotted at four representative Snapshot Time values selected to show the beginning, early expansion, intermediate phase, and latest available observation. The selection must be based on observation coverage rather than on visually maximizing change.
-
-For road feature \(i\), snapshot \(t\), and diagnostic tolerance \(d\), spatial proximity is defined as:
+For snapshot \(t\), elapsed time and the first observed near-full passage bound are:
 
 \[
-O_{it}(d) = 1\{\operatorname{dist}(G_i,R_t) \le d\}.
+h_t = \frac{t-t_0}{3600}, \qquad
+h_M^{near} = \min\{h_t : A_t=1, P_t=1, C_t \ge 0.80\}.
 \]
 
-Here, \(O_{it}(d)\) is a diagnostic overlap indicator; \(G_i\) is the Geometry of Road Segment ID \(i\); \(R_t\) is the union of reported restriction Geometry at Snapshot Time \(t\); and \(d\) is a metric spatial tolerance after projecting working copies to a suitable local coordinate system. The sensitivity grid is \(d \in \{0,10,25,50\}\) metres. The stored WGS84 geometry is not overwritten.
+Here, \(t_0\) is the 2026 earthquake origin time; \(h_t\) is Elapsed Hours Since Event; \(C_t\) is Longitudinal Coverage Proxy; and \(h_M^{near}\) is the first snapshot time with observed passage spanning at least 80 percent of the corridor's longitudinal proxy. The threshold is a prespecified descriptive rule. Because passage may have begun between snapshots, \(h_M^{near}\) is an upper bound on first observation, not an exact reopening time.
 
-\(O_{it}(d)\) is used only to assess linkage sensitivity for Mashiki Road Network and Reported Restriction Overlap. It is not a passability, treatment, or restoration outcome.
+The 2016 Observation State and Event-Time Bound are displayed alongside the 2026 sequence but are not inserted into \(S_M\) or converted into a common restoration duration. These quantities generate Mashiki Central Line Repeated-Shock Service Evidence and supply the Mashiki column of the main evidence matrix.
 
-### 6.3 Intervention-linkage and measurement-gate statistics
+### 6.3 Yokoe matched-endpoint restoration framework
 
-For eligibility stage \(s\), the number and share of documented interventions passing the stage are:
+For Yokoe endpoint definition \(k\), the lower and upper bounds of the 2026-to-2016 restoration-time ratio are:
 
 \[
-F_s = \sum_{j=1}^{J}1(E_{js}=1), \qquad
-r_s = \frac{F_s}{J}.
+R_{Y,k}^{L} = \frac{T_{Y,2026}^{L}}{T_{Y,2016,k}^{U}}, \qquad
+R_{Y,k}^{U} = \frac{T_{Y,2026}^{U}}{T_{Y,2016,k}^{L}}.
 \]
 
-Here, \(J\) is the number of Intervention ID values; \(E_{js}\) indicates whether intervention \(j\) passes stage \(s\); \(F_s\) is the passing count; and \(r_s\) is the passing share. Stages include Completed Before 2026 Event, positive Route Match Count, Geometry Use Eligible, and Treatment Use Eligible.
+Here, \(Y\) denotes Yokoe Bridge; \(k\) denotes the primary matched full-reopening endpoint or the 2016 early-access sensitivity endpoint; \(T_{Y,e,k}^{L}\) and \(T_{Y,e,k}^{U}\) are the applicable Restoration Hours Lower Bound and Restoration Hours Upper Bound for event \(e\); and \(R_{Y,k}^{L}\) and \(R_{Y,k}^{U}\) are Restoration Ratio Lower Bound (2026/2016) and Restoration Ratio Upper Bound (2026/2016).
 
-For measurement gate \(g\), the eligible share is:
+The endpoint-specific direction indicator is:
 
 \[
-p_g = \frac{\sum_{u=1}^{U_g}1(A_{ug}=1)}{U_g}.
+F_{Y,k} = 1\{R_{Y,k}^{U}<1\}.
 \]
 
-Here, \(U_g\) is the number of records assessed under gate \(g\); \(A_{ug}\) is the relevant Final Inventory Validation Eligible, Final Longitudinal Validation Eligible, 2026 Event Attribution Eligible, Individual Probability Use Eligible, Geometry Use Eligible, or Treatment Use Eligible value for record \(u\); and \(p_g\) is the eligible share.
+Here, \(F_{Y,k}\) is Faster in 2026. Directional dominance requires \(F_{Y,k}=1\) for every admissible endpoint and requires the Hazard Direction to show stronger 2026 shaking under both MMI and PGA. This is a within-asset descriptive comparison. It does not isolate reconstruction from emergency operations, inspection practice, or other between-event changes.
 
-These quantities generate Intervention Linkage and Eligibility Funnel, Measurement Gates and Excluded Outcomes, Candidate Intervention Linkage and Eligibility, and Evidence Readiness and Identification Boundary.
+The interval ratios, endpoint roles, hazard contrasts, and Outcome Gate generate Yokoe Bridge Restoration Under Repeated Shock and supply the Yokoe column of the main evidence matrix.
 
-### 6.4 Robustness and failure-mode plan
+### 6.4 Candidate-selection framework
 
-- Recalculate state-specific temporal counts with Restriction Feature ID and, separately, Restriction Record ID to show the consequence of multi-feature reported events.
-- Report active-state restriction length together with \(q_t^{active}\); do not impute missing lengths.
-- Preserve missing categories in composition statistics and show results both including and excluding the missing group.
-- Evaluate road-network overlap across the full \(d\) sensitivity grid. A conclusion that depends on one tolerance is classified as unstable.
-- Keep the archive with no restriction layer outside \(N_t\) trend interpretation and display it explicitly as unavailable coverage.
-- Treat restriction-lifted and unknown-status rows as separate reported states; neither is counted as an active restriction.
-- Treat all Geometry Use Eligible, Treatment Use Eligible, 2026 Event Attribution Eligible, and Individual Probability Use Eligible failures as hard exclusions.
-- Do not estimate heterogeneity, common-support, restoration, or causal intervention models until their required final variables exist.
+For Candidate Universe \(u\), the screened denominator and the number passing gate \(g\) are:
+
+\[
+N_u = \sum_{i=1}^{N} 1\{U_i=u\}, \qquad
+N_{u,g} = \sum_{i=1}^{N} 1\{U_i=u\}1\{G_{i,g}=\mathrm{pass}\}.
+\]
+
+Here, \(i\) indexes Candidate ID; \(N\) is the number of candidate-ledger rows; \(U_i\) is Candidate Universe; \(g\) indexes Identity Gate, Geometry Gate, Hazard Gate, or Outcome Gate; \(G_{i,g}\) is the recorded status of gate \(g\); \(N_u\) is Records Screened; and \(N_{u,g}\) is the gate-specific passing count. Metric-dependent Hazard Gate values remain a separate category and are not silently treated as unconditional passes.
+
+The record-level admissibility indicator is:
+
+\[
+A_i = 1\{I_i=1\}1\{G_i=1\}1\{O_i=1\}1\{H_i \in \{\mathrm{pass},\mathrm{metric\ dependent}\}\}.
+\]
+
+Here, \(A_i\) is the admissibility indicator; \(I_i\), \(G_i\), and \(O_i\) are Identity Gate, Geometry Gate, and Outcome Gate at Gate Unit; and \(H_i\) is Hazard Gate. A metric-dependent \(H_i\) satisfies the bounded evidence gate but requires the metric-specific limitation to remain attached to every resulting claim.
+
+Core Status can indicate inclusion only when \(A_i=1\); Exclusion Reason is then summarized within each official denominator. Nested Mashiki stages and duplicate audit appearances of Yokoe are collapsed to their physical case role only after the gate counts are computed. These quantities generate the selection panel of Case Selection and Inference Boundaries and Candidate Selection Gate Summary. The counts describe audit coverage, not prevalence or selection probability in a statistical population.
+
+### 6.5 Claim-sensitivity and inference-ceiling framework
+
+Each Claim ID is evaluated across all prespecified Scenario values within its Sensitivity Dimension. The project-level classification uses the following ordered rule:
+
+1. **Robust or audit robust:** every applicable scenario preserves the stated directional or audit conclusion.
+2. **Measurement dependent:** the conclusion remains usable only when its dependence on a hazard metric, endpoint, observation system, or source rule is stated explicitly.
+3. **Unsupported:** at least one required identity, geometry, hazard, outcome-equivalence, or source-precedence condition fails for the proposed extension.
+
+Classification is not converted into a numeric score. Result and Evidence retain the scenario-specific basis, while Inference Ceiling states the strongest prohibited extension. The claim families generate the boundary panel of Case Selection and Inference Boundaries and Claim Robustness and Inference Ceilings.
+
+### 6.6 Robustness and failure-mode plan
+
+- Report Mashiki passage only among snapshots where Passage Layer Available is true; retain unavailable layers as missing observations.
+- Show Observed Corridor Passage, Unique Corridor Traces, and Longitudinal Coverage Proxy together so that one positive trace is not presented as full-corridor service.
+- Treat the 80 percent near-full threshold as a declared descriptive threshold and retain the underlying continuous Longitudinal Coverage Proxy in the figure.
+- Preserve Event-Time Bound. Do not treat first observation as an exact transition time or combine the 2016 and 2026 Mashiki measurement systems into a restoration ratio.
+- Report both MMI Difference (2026-2016) and PGA Ratio (2026/2016). If their event rankings disagree, label the hazard premise measurement dependent.
+- Evaluate Yokoe with both Endpoint Definition values and retain all restoration lower and upper bounds. Direction is robust only when every admissible Restoration Ratio Upper Bound (2026/2016) remains below one.
+- Apply Identity Gate, Geometry Gate, Hazard Gate, and Outcome Gate at Gate Unit to every Candidate Universe before using Core Status. Require \(A_i=1\), preserve metric-dependent hazard status as bounded, and reject proximity-only evidence, substantially weaker 2026 shaking, or a non-equivalent outcome for core inclusion.
+- Apply the declared source-precedence rule to the terminal Yokoe reopening record and preserve the alternative archive status as a sensitivity scenario.
+- Keep the full candidate ledger and claim-scenario matrix machine readable even though the article tables are aggregated.
+- Stop before causal or pooled estimation. Progression beyond the current framework requires an untreated or otherwise credible counterfactual, additional independent eligible cases, comparable outcomes, and a new identification review.
 
 ## 7. Analytical Workflow
 
 | step | variables used | formula/model used | generated figure/table title | theory or claim evaluated | support status |
 |---|---|---|---|---|---|
-| Verify observation coverage | Snapshot Time; Restriction Feature ID; Record Present; Observation State; Restriction Layer Available; Restriction Feature Count; Absence Interpretation | Coverage audit and explicit unavailable-layer rule | 2026 Road Restriction Observation Timeline; Road Restriction Snapshot Coverage Audit | Whether the reporting series can support temporal description | Supported for bounded descriptive use |
-| Summarize temporal reporting | Snapshot Time; Restriction Feature ID; Restriction Record ID; Restriction Length (km); Restriction Type; Restriction Status; Observation State | \(N_{st}\), \(N_t\), \(L_t^{active,obs}\), \(q_t^{active}\), and \(\pi_{ct}\) | 2026 Road Restriction Observation Timeline; Road Restriction Composition and Missingness | Whether active, lifted, and unknown reported states evolve measurably through time | Supports descriptive reporting-state change only |
-| Map reported disruption | Snapshot Time; Geometry; Restriction Type; Municipality; Road Type | Coverage-based representative-snapshot selection | Spatiotemporal Progression of Reported Road Restrictions | Whether reported disruption has spatially differentiated patterns | Supports descriptive geography only |
-| Diagnose road-network linkage | Road Segment ID; Route Class; Route Name; Restriction Feature ID; Snapshot Time; Geometry | \(O_{it}(d)\) across the tolerance grid | Mashiki Road Network and Reported Restriction Overlap | Whether restriction geometry can be related robustly to the Mashiki network | Inconclusive until overlap sensitivity is observed |
-| Audit intervention evidence | Intervention ID; Asset Type; Completion Date Earliest; Completion Date Latest; Route Match Count; Geometry Use Eligible; Treatment Use Eligible; Quality Flag | \(F_s\) and \(r_s\) | Intervention Linkage and Eligibility Funnel; Candidate Intervention Linkage and Eligibility | Whether documented interventions can operationalize the intervention mechanism | Not supported at present because no treatment-eligible geometry exists |
-| Audit measurement eligibility | Final Inventory Validation Eligible; Final Longitudinal Validation Eligible; 2026 Event Attribution Eligible; Individual Probability Use Eligible; Geometry Use Eligible; Treatment Use Eligible | \(p_g\) | Measurement Gates and Excluded Outcomes; Evidence Readiness and Identification Boundary | Whether unsupported proxies are excluded consistently | Supported as an evidence-boundary claim |
-| Evaluate the central research contract | All eligible variables above | Cross-output identification audit; no causal estimator | Evidence Readiness and Identification Boundary | Whether the available evidence answers the repeated-shock resilience question | Inconclusive; 2016 exposure, 2026 hazard comparability, restoration outcomes, intervention geometry, and service-access variables remain missing |
+| Establish the common case contract | Case ID; Case Label; Adaptation Pathway; Adaptation Description; Adaptation Completion; Failure Evidence 2016; Performance Evidence 2026; Core Case | Temporal ordering and pathway-specific evidence-chain audit | Kumamoto Repeated-Shock Cases and Adaptation Pathways | Whether both adaptations occurred after documented 2016 failure and before the 2026 stress test | Supported for two traceable cases; no natural-experiment status |
+| Characterize case-specific shaking | Mean MMI 2016; Mean MMI 2026; MMI Difference (2026-2016); Mean PGA 2016 (g); Mean PGA 2026 (g); PGA Ratio (2026/2016); Hazard Direction | \(\Delta M_c\) and \(Q_c\) | Kumamoto Repeated-Shock Cases and Adaptation Pathways; Two-Pathway Repeated-Shock Evidence Matrix | Whether the repeated-shock severity premise is stable across hazard metrics | Yokoe supported under both metrics; Mashiki measurement dependent |
+| Estimate Mashiki service-presence evidence | Event; Observation Time; Subsegment; Observation State; Measurement System; Passage Layer Available; Observed Corridor Passage; Unique Corridor Traces; Longitudinal Coverage Proxy; Elapsed Hours Since Event; Event-Time Bound | \(S_M\), \(h_t\), and \(h_M^{near}\), with unavailable-layer and timing-bound rules | Mashiki Central Line Repeated-Shock Service Evidence; Two-Pathway Repeated-Shock Evidence Matrix | Whether 2026 shows a positive service trajectory consistent with corridor-capacity tolerance | Partially supported: positive passage is observed, but the cross-event outcomes are non-equivalent and causality is not identified |
+| Estimate Yokoe restoration contrast | Endpoint Definition; Endpoint Role; Restoration Hours Lower Bound 2016; Restoration Hours Upper Bound 2016; Restoration Hours Lower Bound 2026; Restoration Hours Upper Bound 2026; Restoration Ratio Lower Bound (2026/2016); Restoration Ratio Upper Bound (2026/2016); Faster in 2026; Outcome Gate | \(R_{Y,k}^{L}\), \(R_{Y,k}^{U}\), and \(F_{Y,k}\) | Yokoe Bridge Restoration Under Repeated Shock; Two-Pathway Repeated-Shock Evidence Matrix | Whether the same bridge reopened faster in 2026 under stronger shaking and alternative admissible endpoints | Supported as a directionally dominant within-asset contrast; causal reconstruction effect remains unsupported |
+| Audit case selection | Candidate Universe; Candidate Label; Gate Unit; Identity Gate; Geometry Gate; Geometry Gate Basis; Hazard Gate; Outcome Gate; Core Status; Exclusion Reason | \(N_u\), \(N_{u,g}\), and \(A_i\), with physical-case deduplication after gate counting | Case Selection and Inference Boundaries; Candidate Selection Gate Summary | Whether the two cases satisfy unit-consistent admissibility rules that reject all other screened official candidates | Audit supported for the current four denominators; Mashiki hazard status remains metric dependent and later official additions require rerunning the gates |
+| Classify claim robustness | Claim ID; Claim; Sensitivity Dimension; Scenario; Result; Classification; Evidence; Inference Ceiling | Ordered robust, measurement-dependent, and unsupported classification rule | Case Selection and Inference Boundaries; Claim Robustness and Inference Ceilings | Which pathway conclusions survive hazard, endpoint, coverage, outcome-equivalence, denominator, geometry, and source-precedence checks | Yokoe direction and denominator audit are robust; Mashiki hazard comparability and outcome equivalence remain bounded |
+| Evaluate the central research contract | Outcome Comparability; Evidence Level; Permissible Claim; Inference Ceiling; all classified claim evidence | Structured cross-output synthesis with no pooled estimator | Two-Pathway Repeated-Shock Evidence Matrix | How far the second stress test supports claims about urban resilience learning | Supports pathway-specific mechanism consistency and evidence-boundary learning; does not support causal attribution or an average resilience dividend |
 
-The workflow stops after evidence-readiness assessment. Progression to a repeated-shock causal or associational model requires a revised final-variable contract, a revised output plan containing direct tests of the central question, and a new estimation-framework review.
+The workflow terminates with separate Mashiki and Yokoe conclusions and a shared inference-boundary synthesis. Any future move to causal or pooled analysis requires new data and a new identification strategy rather than a reinterpretation of the present two-case products.
 
 ## 8. Figure and Table Plan
 
-The confirmed first-stage output package documents the observed 2026 disruption record, its spatial relationship to the Mashiki road network, intervention-linkage readiness, and explicit measurement gates. Causal resilience-effect, restoration-survival, and critical-service-access outputs are deferred until their required variables pass the analytical eligibility gates.
+The revised Results package follows the two-case, two-pathway design declared in Sections 1-4. Mashiki Central Line and Yokoe Bridge are shown separately because their adaptation mechanisms and outcome systems are not equivalent. The main outputs establish case location and chronology, within-case repeated-shock performance, and the evidence boundary of each conclusion. Selection and sensitivity evidence is summarized compactly; complete record-level ledgers remain machine-readable analytical products rather than article tables. No output pools the cases or presents the design as a natural experiment.
 
 ### Figures
 
 | title | what it expresses | figure type | subpanels | key variables | status |
 |---|---|---|---:|---|---|
-| 2026 Road Restriction Observation Timeline | Supplementary diagnostic showing official observation coverage, active reported length, field completeness, and the composition of active, lifted, and unknown reported states without interpreting non-reporting as openness or decline as restoration. | line | 3 | Snapshot Time; Restriction Feature ID; Restriction Length (km); Restriction Type; Restriction Status; Observation State; Restriction Layer Available; Restriction Feature Count; Absence Interpretation | done |
-| Spatiotemporal Progression of Reported Road Restrictions | Shows the geography and composition of reported road restrictions at four representative observation times. | map | 4 | Snapshot Time; Geometry; Restriction Type; Municipality; Road Type | done |
-| Mashiki Road Network and Reported Restriction Overlap | Assesses the spatial coverage and limits of linking reported restrictions to the official Mashiki road network. | map | 2 | Road Segment ID; Route Class; Route Name; Restriction Feature ID; Snapshot Time; Geometry | done |
-| Intervention Linkage and Eligibility Funnel | Shows how the 20 documented interventions move from official evidence through candidate route matching to geometry and treatment eligibility. | bar | 2 | Asset Type; Route Match Count; Geometry Use Eligible; Treatment Use Eligible; Quality Flag | pending |
-| Measurement Gates and Excluded Outcomes | Makes transparent which building and intervention measurements pass validation gates and which outcomes are excluded from causal interpretation. | stacked_bar | 2 | Final Inventory Validation Eligible; Final Longitudinal Validation Eligible; 2026 Event Attribution Eligible; Individual Probability Use Eligible; Geometry Use Eligible; Treatment Use Eligible | pending |
+| Kumamoto Repeated-Shock Cases and Adaptation Pathways | Locates the two core cases and establishes the common sequence from 2016 failure through completed adaptation to the 2026 stress test while keeping the capacity and structural pathways distinct. | map_timeline | 3 | Case ID; Case Label; Adaptation Pathway; Adaptation Completion; Failure Evidence 2016; Performance Evidence 2026; Geometry Role; Geometry | done |
+| Mashiki Central Line Repeated-Shock Service Evidence | Shows the documented 2016 restriction states and the time-indexed 2026 passage trajectory, including unavailable observations and the first near-full longitudinal passage bound. | timeline_line | 2 | Event; Observation Time; Subsegment; Observation State; Passage Layer Available; Observed Corridor Passage; Unique Corridor Traces; Longitudinal Coverage Proxy; Elapsed Hours Since Event; Event-Time Bound | done |
+| Yokoe Bridge Restoration Under Repeated Shock | Compares the same bridge's event-to-restoration intervals under 2016 and 2026 shaking and tests whether the faster-2026 direction survives the admissible 2016 endpoint definition. | chronology_interval | 2 | Endpoint Definition; Endpoint Role; Restoration Hours Lower Bound 2016; Restoration Hours Upper Bound 2016; Restoration Hours Lower Bound 2026; Restoration Hours Upper Bound 2026; Restoration Ratio Lower Bound (2026/2016); Restoration Ratio Upper Bound (2026/2016); Mean MMI 2016; Mean MMI 2026; Mean PGA 2016 (g); Mean PGA 2026 (g) | done |
+| Case Selection and Inference Boundaries | Shows how the four official candidate universes narrow to the two core cases and separates robust conclusions, measurement-dependent conclusions, and prohibited extensions. | selection_flow_boundary | 2 | Candidate Universe; Gate Unit; Identity Gate; Geometry Gate; Geometry Gate Basis; Hazard Gate; Outcome Gate; Core Status; Exclusion Reason; Claim; Sensitivity Dimension; Classification; Inference Ceiling | done |
 
 ### Tables
 
 | title | what it expresses | rows | columns | row meaning | column meaning | status |
 |---|---|---:|---:|---|---|---|
-| Road Restriction Snapshot Coverage Audit | Audits official observation timing, restriction-layer availability, feature counts, reported-field completeness, and the interpretation of layer absence. | 24 | 8 | One official snapshot | Snapshot Time, Restriction Layer Available, Restriction Feature Count, observed record and length completeness, category coverage, and Absence Interpretation | pending |
-| Road Restriction Composition and Missingness | Summarizes the composition, temporal coverage, and missingness of the principal reported restriction fields. | approximately 15 | 7 | One variable or major reported category | Count, proportion, missingness, and first and last observed times | pending |
-| Candidate Intervention Linkage and Eligibility | Presents all documented interventions, completion intervals, candidate network matches, and conservative eligibility decisions. | 20 | 12 | One documented intervention | Asset Type, reported and normalized extent, completion interval, Route Match Count, Geometry Use Eligible, Treatment Use Eligible, and Quality Flag | pending |
-| Evidence Readiness and Identification Boundary | Distinguishes evidence streams that support description from constructs that remain unavailable for causal or network-service analysis. | approximately 8 | 7 | One research construct or evidence stream | Spatial precision, temporal precision, linkage status, analytical eligibility, permitted claim, and remaining blocker | pending |
+| Two-Pathway Repeated-Shock Evidence Matrix | Main table presenting the two cases side by side after transposing the 2-by-18 analytical layer. | approximately 11 | 3 | One evidence dimension: pathway, chronology, 2016 failure, 2026 performance, MMI, PGA, outcome comparability, robustness, permissible claim, or inference ceiling | Evidence Dimension; Mashiki Central Line; Yokoe Bridge | done |
+| Candidate Selection Gate Summary | Supplementary table compressing the 65-row candidate ledger into one row per official denominator; the complete ledger remains a machine-readable audit product. | 4 | 6 | One official candidate universe | Candidate Universe; Records Screened; Valid Linkage; Repeated-Shock Evidence; Retained Role; Dominant Exclusion | done |
+| Claim Robustness and Inference Ceilings | Supplementary table grouping the 12 claim-scenario records into one row per substantive claim family. | approximately 4 | 5 | One claim family covering Mashiki service evidence, Yokoe restoration, selection validity, or source and measurement boundaries | Claim; Checks Applied; Result; Measurement Dependence; Inference Ceiling | done |
+
+The 28-row Mashiki Event-State Observation Record is not rendered as a separate article table. It remains the auditable input for Mashiki Central Line Repeated-Shock Service Evidence and the main evidence matrix. This avoids repeating the same information in both figure and table form.
+
+### Existing-output disposition
+
+| existing output | revised role |
+|---|---|
+| Spatiotemporal Progression of Reported Road Restrictions | Supplementary background record; not part of the core two-case Results package. |
+| 2026 Road Restriction Observation Timeline | Supplementary observation-coverage record. |
+| Reported Restriction Persistence and Composition | Supplementary measurement audit. |
+| Reported Restriction Composition and Persistence | Supplementary measurement-audit workbook. |
+| Mashiki Road Network and Reported Restriction Overlap | Process record supporting spatial-linkage development. |
+| Repeated-Shock Recovery Contrasts Across Independent Units | Legacy exploratory output superseded by the two-case design. |
+| Yokoe Bridge Recovery Contrast and Endpoint Sensitivity | Design basis for the revised Yokoe main figure; superseded in the final package. |
 
 ### Variable coverage status
 
-All variables referenced by the confirmed first-stage figures and tables now appear in Section 4 as final analytical or diagnostic variables. This resolves the prior snapshot-coverage warning but does not resolve the separate absence of variables needed for the central repeated-shock causal question.
+All analytical and display variables referenced by the revised figures and compact tables appear in Section 4. The locator map draws both cases from the final two-row geometry layer without creating a new analytical outcome. The plan retains hard exclusions against pooling the two cases, treating passage as proof of an undamaged or fully functional road, treating proximity as asset identity, or interpreting the same-asset Yokoe contrast as a causal reconstruction effect.
