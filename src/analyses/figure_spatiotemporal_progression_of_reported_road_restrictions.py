@@ -30,7 +30,7 @@ from shapely.geometry import LineString
 ROOT = Path(__file__).resolve().parents[2]
 RESTRICTIONS = ROOT / "data/processed/kumamoto_2026_road_restriction_snapshots_preprocessed.parquet"
 ADMINISTRATIVE = ROOT / "data/processed/kumamoto_administrative_areas_cartographic_preprocessed.parquet"
-OUT = ROOT / "data/results/figures/Figure_spatiotemporal_progression_of_reported_road_restrictions.png"
+OUT = ROOT / "docs/process-records/assets/supplementary/Figure_spatiotemporal_progression_of_reported_road_restrictions.png"
 
 PROJECTED_CRS = 6670
 GEOGRAPHIC_CRS = 6668
@@ -191,8 +191,8 @@ def prepare_data() -> tuple[
     times = pd.DatetimeIndex(
         restrictions["Snapshot Time"].drop_duplicates().sort_values().tolist()
     )
-    if len(times) != 23:
-        raise ValueError(f"Expected 23 available snapshots after clipping, found {len(times)}")
+    if len(times) != 24:
+        raise ValueError(f"Expected 24 available snapshots after clipping, found {len(times)}")
     selected = select_representative_times(times)
     geographic_bounds = tuple(prefecture.to_crs(GEOGRAPHIC_CRS).total_bounds)
     return restrictions, administrative, prefecture, selected, geographic_bounds

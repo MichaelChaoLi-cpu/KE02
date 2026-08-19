@@ -31,7 +31,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ROADS = ROOT / "data/processed/mashiki_official_road_network_preprocessed.parquet"
 RESTRICTIONS = ROOT / "data/processed/kumamoto_2026_road_restriction_snapshots_preprocessed.parquet"
 ADMINISTRATIVE = ROOT / "data/processed/kumamoto_administrative_areas_cartographic_preprocessed.parquet"
-OUT = ROOT / "data/results/figures/Figure_mashiki_road_network_and_reported_restriction_overlap.png"
+OUT = ROOT / "docs/process-records/assets/Figure_mashiki_road_network_and_reported_restriction_overlap.png"
 
 PROJECTED_CRS = 6670
 GEOGRAPHIC_CRS = 6668
@@ -307,7 +307,6 @@ def main() -> None:
         [path_effects.withStroke(linewidth=2.8, foreground="white", alpha=0.92)]
     )
 
-    counts = latest_summary.set_index("Tolerance (m)")["Matched Segment Count"]
     map_ax.text(
         0.025,
         0.975,
@@ -321,79 +320,59 @@ def main() -> None:
         bbox={"facecolor": "white", "edgecolor": "#D0D5DD", "alpha": 0.92, "pad": 2.5},
         zorder=20,
     )
-    map_ax.text(
-        0.025,
-        0.915,
-        (
-            f"exact {int(counts.loc[0.0])}/433  |  "
-            f"within 25 m {int(counts.loc[25.0])}/433  |  "
-            f"within 50 m {int(counts.loc[50.0])}/433"
-        ),
-        transform=map_ax.transAxes,
-        ha="left",
-        va="top",
-        fontsize=7.3,
-        color="#344054",
-        bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.88, "pad": 2.0},
-        zorder=20,
+    latest_summary = latest_summary.set_index("Tolerance (m)").reindex(TOLERANCES)
+    latest_counts = latest_summary["Matched Segment Count"]
+    x = np.arange(len(TOLERANCES))
+    width = 0.34
+    segment_bars = sensitivity_ax.bar(
+        x - width / 2,
+        latest_summary["Matched Segment Share (%)"],
+        width=width,
+        color="#4B7F93",
+        edgecolor="none",
+        label="Road segments",
     )
-
-    grouped = sensitivity.groupby("Tolerance (m)")
-    for column, color, marker, label_text in [
-        ("Matched Segment Share (%)", "#6A3D9A", "o", "Matched road-segment share"),
-        (
-            "Matched Length Share (%)",
-            "#00876C",
-            "s",
-            "Length share of matched segments",
-        ),
-    ]:
-        median = grouped[column].median().reindex(TOLERANCES).to_numpy(float)
-        low = grouped[column].min().reindex(TOLERANCES).to_numpy(float)
-        high = grouped[column].max().reindex(TOLERANCES).to_numpy(float)
-        sensitivity_ax.errorbar(
-            TOLERANCES,
-            median,
-            yerr=np.vstack([median - low, high - median]),
-            color=color,
-            linewidth=2.0,
-            marker=marker,
-            markersize=6,
-            capsize=3,
-            label=label_text,
-            zorder=5,
+    length_bars = sensitivity_ax.bar(
+        x + width / 2,
+        latest_summary["Matched Length Share (%)"],
+        width=width,
+        color="#C58B45",
+        edgecolor="none",
+        label="Road length",
+    )
+    for bar, count in zip(segment_bars, latest_counts, strict=True):
+        sensitivity_ax.text(
+            bar.get_x() + bar.get_width(),
+            bar.get_height() + 0.28,
+            f"{bar.get_height():.1f}% · {int(count)}",
+            ha="right",
+            va="bottom",
+            fontsize=7.6,
+            color="#315E75",
         )
-
-    latest_counts = latest_summary.set_index("Tolerance (m)")["Matched Segment Count"]
-    segment_median = grouped["Matched Segment Share (%)"].median().reindex(TOLERANCES)
-    for tolerance in TOLERANCES:
-        sensitivity_ax.annotate(
-            f"{int(latest_counts.loc[tolerance])}",
-            xy=(tolerance, segment_median.loc[tolerance]),
-            xytext=(0, 9),
-            textcoords="offset points",
+    for bar in length_bars:
+        sensitivity_ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.28,
+            f"{bar.get_height():.1f}%",
             ha="center",
             va="bottom",
-            fontsize=7.4,
-            color="#5A2E83",
+            fontsize=7.6,
+            color="#8A5A24",
         )
-    sensitivity_ax.set_xlabel("Spatial tolerance (m)")
+    sensitivity_ax.set_xlabel("Spatial tolerance")
     sensitivity_ax.set_ylabel("Share of official Mashiki network (%)")
-    sensitivity_ax.set_xticks(TOLERANCES, ["0\nintersect", "10", "25", "50"])
-    sensitivity_ax.set_xlim(-3, 53)
+    sensitivity_ax.set_xticks(x, ["0 m\nintersection", "10 m", "25 m", "50 m"])
+    sensitivity_ax.set_xlim(-0.65, len(TOLERANCES) - 0.35)
     sensitivity_ax.set_ylim(0, 15)
     sensitivity_ax.grid(axis="y", color="#D0D5DD", linewidth=0.7)
     sensitivity_ax.grid(axis="x", visible=False)
-    sensitivity_ax.legend(frameon=False, loc="upper left")
-    sensitivity_ax.text(
-        0.03,
-        0.88,
-        "Median and range across 23 available snapshots\nNumbers label matched road segments",
-        transform=sensitivity_ax.transAxes,
-        ha="left",
-        va="top",
-        fontsize=8.0,
-        color="#475467",
+    sensitivity_ax.legend(
+        frameon=False,
+        ncol=2,
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.13),
+        columnspacing=1.6,
     )
     sns.despine(ax=sensitivity_ax)
 

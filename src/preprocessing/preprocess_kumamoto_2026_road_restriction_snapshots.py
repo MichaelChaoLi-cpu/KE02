@@ -120,8 +120,8 @@ def main() -> None:
     archives = sorted(
         path for path in SRC_DIR.glob("*data.zip") if re.fullmatch(r"\d{6}(?:\d{4})?data\.zip", path.name)
     )
-    if len(archives) != 24:
-        raise ValueError(f"Expected 24 dated archives, found {len(archives)}")
+    if len(archives) != 25:
+        raise ValueError(f"Expected 25 dated archives, found {len(archives)}")
 
     records: list[dict[str, Any]] = []
     geometries = []
@@ -260,15 +260,15 @@ def main() -> None:
 
     if restrictions.empty or restrictions.geometry.isna().any():
         raise ValueError("Restriction records or geometries are unexpectedly missing")
-    if coverage["Restriction Layer Available"].sum() != 23:
-        raise ValueError("Expected restriction layers in 23 of 24 archives")
+    if coverage["Restriction Layer Available"].sum() != 24:
+        raise ValueError("Expected restriction layers in 24 of 25 archives")
     if restrictions["Restriction Feature ID"].duplicated().any():
         raise ValueError("Restriction Feature ID must uniquely identify every source feature")
     expected_state_counts = {
-        "active_full_closure": 900,
-        "active_emergency_access_only": 57,
-        "restriction_lifted": 49,
-        "unknown_status": 57,
+        "active_full_closure": 939,
+        "active_emergency_access_only": 58,
+        "restriction_lifted": 53,
+        "unknown_status": 59,
     }
     if restrictions["Observation State"].value_counts().to_dict() != expected_state_counts:
         raise ValueError("Unexpected normalized restriction-state counts")

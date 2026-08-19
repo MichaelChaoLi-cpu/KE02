@@ -24,7 +24,7 @@ import seaborn as sns
 ROOT = Path(__file__).resolve().parents[2]
 RESTRICTIONS = ROOT / "data/processed/kumamoto_2026_road_restriction_snapshots_preprocessed.parquet"
 COVERAGE = ROOT / "data/processed/kumamoto_2026_road_snapshot_coverage_preprocessed.parquet"
-OUT = ROOT / "data/results/figures/Figure_2026_road_restriction_observation_timeline.png"
+OUT = ROOT / "docs/process-records/assets/supplementary/Figure_2026_road_restriction_observation_timeline.png"
 
 STATE_ORDER = [
     "active_full_closure",
@@ -51,8 +51,8 @@ def prepare_data() -> tuple[pd.DataFrame, pd.DataFrame]:
     restrictions = pd.read_parquet(RESTRICTIONS)
     coverage = pd.read_parquet(COVERAGE).sort_values("Snapshot Time").reset_index(drop=True)
 
-    if len(coverage) != 24 or coverage["Restriction Layer Available"].sum() != 23:
-        raise ValueError("Expected 24 snapshots with 23 available restriction layers")
+    if len(coverage) != 25 or coverage["Restriction Layer Available"].sum() != 24:
+        raise ValueError("Expected 25 snapshots with 24 available restriction layers")
     if set(restrictions["Observation State"].unique()) != set(STATE_ORDER):
         raise ValueError("Unexpected Observation State categories")
 

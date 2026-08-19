@@ -41,6 +41,15 @@ def main() -> None:
     interventions = pd.read_parquet(
         PROCESSED / "mashiki_resilience_interventions_preprocessed.parquet"
     )
+    recovery_units = pd.read_parquet(
+        PROCESSED / "kumamoto_repeated_shock_recovery_units_preprocessed.parquet"
+    )
+    yokoe_endpoints = pd.read_parquet(
+        PROCESSED / "yokoe_bridge_endpoint_sensitivity_preprocessed.parquet"
+    )
+    yokoe_milestones = pd.read_parquet(
+        PROCESSED / "yokoe_bridge_recovery_milestones_preprocessed.parquet"
+    )
     decisions = json.loads(
         (ROOT / "data/exp/data-preprocessing/resilience_decisions.json").read_text(
             encoding="utf-8"
@@ -52,6 +61,9 @@ def main() -> None:
         "restriction snapshots": restrictions,
         "snapshot coverage": coverage,
         "intervention ledger": interventions,
+        "repeated-shock recovery units": recovery_units,
+        "Yokoe endpoint sensitivity": yokoe_endpoints,
+        "Yokoe recovery milestones": yokoe_milestones,
     }.items():
         assert_ascii_columns(frame, label)
 
@@ -60,23 +72,23 @@ def main() -> None:
     assert road.crs.to_epsg() == 4326
     assert road.geometry.notna().all() and road.geometry.is_valid.all()
 
-    assert len(restrictions) == 1_063
+    assert len(restrictions) == 1_109
     assert restrictions["Restriction Feature ID"].is_unique
     assert restrictions.crs.to_epsg() == 4326
     assert restrictions.geometry.notna().all() and restrictions.geometry.is_valid.all()
-    assert restrictions["Snapshot Time"].nunique() == 23
+    assert restrictions["Snapshot Time"].nunique() == 24
     assert restrictions["Record Present"].all()
     expected_state_counts = {
-        "active_full_closure": 900,
-        "active_emergency_access_only": 57,
-        "restriction_lifted": 49,
-        "unknown_status": 57,
+        "active_full_closure": 939,
+        "active_emergency_access_only": 58,
+        "restriction_lifted": 53,
+        "unknown_status": 59,
     }
     assert restrictions["Observation State"].value_counts().to_dict() == expected_state_counts
 
-    assert len(coverage) == 24
+    assert len(coverage) == 25
     assert coverage["Snapshot Archive"].is_unique
-    assert coverage["Restriction Layer Available"].sum() == 23
+    assert coverage["Restriction Layer Available"].sum() == 24
     assert coverage["Absence Interpretation"].eq("not_observed_not_open").all()
     coverage_decisions = next(
         dataset["secondary_output_variables"]
@@ -101,6 +113,21 @@ def main() -> None:
     assert interventions["Route Match Count"].gt(0).sum() == 12
     assert not interventions["Geometry Use Eligible"].any()
     assert not interventions["Treatment Use Eligible"].any()
+
+    assert len(recovery_units) == 4
+    assert recovery_units["Recovery Unit ID"].is_unique
+    assert recovery_units.notna().all().all()
+    assert recovery_units["MMI Difference"].gt(0).all()
+    assert recovery_units["Higher 2026 PGA"].sum() == 3
+    assert set(recovery_units["Recovery Direction"]) == {
+        "faster_in_2026",
+        "slower_in_2026",
+    }
+    assert len(yokoe_endpoints) == 2
+    assert yokoe_endpoints["Restoration Ratio Upper Bound"].lt(1).all()
+    assert len(yokoe_milestones) == 5
+    assert set(yokoe_milestones["Episode"]) == {2016, 2026}
+    assert yokoe_milestones["Elapsed Days Lower Bound"].ge(0).all()
 
     duplicate_event_mask = restrictions.duplicated(
         ["Snapshot Time", "Restriction Record ID"], keep=False
@@ -133,8 +160,8 @@ def main() -> None:
             )
         ].shape[0] > 0:
             observed_active_to_lifted += 1
-    assert len(lifted_record_ids) == 4
-    assert observed_active_to_lifted == 1
+    assert len(lifted_record_ids) == 5
+    assert observed_active_to_lifted == 2
 
     coverage_rows = []
     for row in coverage.itertuples(index=False):
@@ -156,9 +183,12 @@ Audit status: **PASS**
 | Output | Rows | Columns | Key / geometry checks |
 |---|---:|---:|---|
 | Official Mashiki road network | {len(road):,} | {len(road.columns)} | 433 unique segment IDs; WGS84; all geometries present and valid |
-| 2026 road-restriction features | {len(restrictions):,} | {len(restrictions.columns)} | 1,063 unique feature IDs; 23 observed snapshots; WGS84; all geometries present and valid |
-| Restriction snapshot coverage | {len(coverage):,} | {len(coverage.columns)} | 24 unique archives; 23 restriction-bearing snapshots and one explicit layer absence |
+| 2026 road-restriction features | {len(restrictions):,} | {len(restrictions.columns)} | 1,109 unique feature IDs; 24 observed snapshots; WGS84; all geometries present and valid |
+| Restriction snapshot coverage | {len(coverage):,} | {len(coverage.columns)} | 25 unique archives; 24 restriction-bearing snapshots and one explicit layer absence |
 | Candidate resilience interventions | {len(interventions):,} | {len(interventions.columns)} | 20 unique intervention IDs; 12 candidate route matches; zero geometry- or treatment-eligible records |
+| Independent repeated-shock recovery units | {len(recovery_units):,} | {len(recovery_units.columns)} | Four unique units; MMI higher in all four; PGA higher in three; both recovery directions retained |
+| Yokoe endpoint sensitivity | {len(yokoe_endpoints):,} | {len(yokoe_endpoints.columns)} | Two defensible 2016 endpoints; both restoration-ratio intervals remain below one |
+| Yokoe recovery milestones | {len(yokoe_milestones):,} | {len(yokoe_milestones.columns)} | Five official milestones across the 2016 and 2026 episodes; time precision retained |
 
 All output column names are English-readable ASCII names. Raw inputs were not modified.
 The variable contract contains 49 confirmed final analytical variables, including the three snapshot-coverage fields required by the output plan.
@@ -166,13 +196,15 @@ The variable contract contains 49 confirmed final analytical variables, includin
 ## Identification safeguards
 
 - Missing values were retained; no imputation was performed.
-- Observation State separates 900 active full-closure rows, 57 active emergency-access-only rows, 49 restriction-lifted rows, and 57 unknown-status rows. An unlisted road is never coded as open.
-- The 49 lifted rows represent four source record IDs across 21 snapshots. Only one of those IDs is observed first in an active state and later in a lifted state; the other three enter the series already lifted. This is too sparse for a general restoration-time outcome.
+- Observation State separates 939 active full-closure rows, 58 active emergency-access-only rows, 53 restriction-lifted rows, and 59 unknown-status rows. An unlisted road is never coded as open.
+- The 53 lifted rows represent five source record IDs. Two of those IDs are observed first in an active state and later in a lifted state; the other three enter the series already lifted. This remains too sparse for a general restoration-time outcome.
 - The 29 July 2026 08:00 archive has no restriction layer and is represented in the coverage table as `not_observed_not_open`, not as a zero-closure observation.
 - Source `Restriction Record ID` is an event-level identifier and is not assumed to be row-unique. There are {duplicate_event_rows} rows in {duplicate_event_groups} within-snapshot repeated-ID groups ({duplicate_event_excess} rows beyond one per group). These source rows are retained because an event may cover multiple route sections or features.
 - `Restriction Feature ID` is the deterministic row-level key. It combines the immutable snapshot archive, source feature position, source event identifier, properties, and geometry.
 - All 20 intervention completion intervals end before the 28 July 2026 event, but partial completion and unresolved completed-subsegment geometry are preserved. Consequently, every `Geometry Use Eligible` and `Treatment Use Eligible` flag remains false.
 - Candidate name matches to an official whole-route feature do not establish the geometry of the completed intervention subsegment.
+- Version-pinned MMI and PGA are retained together. All four units have higher 2026 MMI, but only three have higher 2026 PGA; stronger-shaking language is therefore metric-dependent.
+- Yokoe endpoint direction is stable across full-bridge and limited-access definitions, while its milestone chronology remains contextual rather than causal evidence.
 
 ## Restriction snapshot coverage
 

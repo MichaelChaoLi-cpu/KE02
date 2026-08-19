@@ -25,6 +25,106 @@ USER_AGENT = "KE02-research-acquisition/1.0 (official public data)"
 
 STATIC_SOURCES = [
     (
+        "mlit_traffic_census_2015_kumamoto_locations.csv",
+        "https://www.mlit.go.jp/road/census/h27/data/csv/kasyo43.csv",
+        "MLIT 2015 Kumamoto road-traffic census location-level basic table",
+    ),
+    (
+        "mlit_traffic_census_2015_kumamoto_hourly.csv",
+        "https://www.mlit.go.jp/road/census/h27/data/csv/zkntrf43.csv",
+        "MLIT 2015 Kumamoto road-traffic census hourly traffic table",
+    ),
+    (
+        "mlit_traffic_census_2021_kumamoto_locations.csv",
+        "https://www.mlit.go.jp/road/census/r3/data/csv/kasyo43.csv",
+        "MLIT 2021 Kumamoto road-traffic census location-level basic table",
+    ),
+    (
+        "mlit_traffic_census_2021_kumamoto_hourly.csv",
+        "https://www.mlit.go.jp/road/census/r3/data/csv/zkntrf43.csv",
+        "MLIT 2021 Kumamoto road-traffic census hourly traffic table",
+    ),
+    (
+        "mlit_2026_damage_report_06_2026-07-30_0630.pdf",
+        "https://www.mlit.go.jp/common/002014313.pdf",
+        "MLIT 2026 Kumamoto earthquake report 6 with E77 closure at the 05:00 road-status timestamp",
+    ),
+    (
+        "mlit_2026_damage_report_07_2026-07-30_1030.pdf",
+        "https://www.mlit.go.jp/common/002014352.pdf",
+        "MLIT 2026 Kumamoto earthquake report 7 with E77 absent from closures at the 09:00 road-status timestamp",
+    ),
+    (
+        "nexco_2026_kumamoto_road_status_report_03_2026-07-29_0100.pdf",
+        "https://www.w-nexco.co.jp/emc/emcpdfs/20260729013804-01.pdf",
+        "NEXCO West 2026 Kumamoto earthquake road status report 3 with closure starts",
+    ),
+    (
+        "nexco_2026_kumamoto_road_status_report_05_2026-07-30_0950.pdf",
+        "https://www.w-nexco.co.jp/emc/emcpdfs/20260730095002-01.pdf",
+        "NEXCO West 2026 Kumamoto earthquake road status report 5 with reopening time",
+    ),
+    (
+        "nexco_2026_kumamoto_road_status_report_07_2026-07-31_1800.pdf",
+        "https://www.w-nexco.co.jp/emc/emcpdfs/20260731200251-01.pdf",
+        "NEXCO West 2026 Kumamoto earthquake road status report 7 with emergency access time",
+    ),
+    (
+        "nexco_2026_kumamoto_road_status_report_17_2026-08-13_2000.pdf",
+        "https://www.w-nexco.co.jp/emc/emcpdfs/20260813201943-01.pdf",
+        "NEXCO West 2026 Kumamoto earthquake road status report 17 with general reopening time",
+    ),
+    (
+        "nexco_2026_kumamoto_road_status_report_18_2026-08-17_1400.pdf",
+        "https://www.w-nexco.co.jp/emc/emcpdfs/20260817140053-01.pdf",
+        "NEXCO West 2026 Kumamoto earthquake road status report 18 confirming reopening",
+    ),
+    (
+        "qsr_2026_e3a_reopening_forecast_2026-08-17_1400.pdf",
+        "https://www.qsr.mlit.go.jp/yatusiro/newstopics_files/20260817/20260817_kisha.pdf",
+        "Kyushu Regional Development Bureau joint release announcing general traffic on E3A Yatsushiro-minami IC-Tanoura IC",
+    ),
+    (
+        "qsr_2026_e3a_hinagu_tanoura_reopening_final_2026-08-18_0600.pdf",
+        "https://www.qsr.mlit.go.jp/yatusiro/newstopics_files/20260818/20260818_kisha.pdf",
+        "Kyushu Regional Development Bureau final release for E3A Hinagu IC-Tanoura IC",
+    ),
+    (
+        "mlit_2016_damage_report_2016-04-17_1300.pdf",
+        "https://www.mlit.go.jp/common/001127940.pdf",
+        "MLIT 2016 disaster report with road locations and restriction times",
+    ),
+    (
+        "mlit_2016_damage_report_2016-04-18_0600.pdf",
+        "https://www.mlit.go.jp/common/001127953.pdf",
+        "MLIT 2016 disaster report with road locations and restriction times",
+    ),
+    (
+        "mlit_2016_damage_report_2016-04-21_0600.pdf",
+        "https://www.mlit.go.jp/common/001128776.pdf",
+        "MLIT 2016 disaster report with road locations and restriction times",
+    ),
+    (
+        "mlit_2016_damage_report_2016-04-26_0430.pdf",
+        "https://www.mlit.go.jp/common/001129380.pdf",
+        "MLIT 2016 disaster report with road locations and restriction times",
+    ),
+    (
+        "mlit_2016_damage_report_2016-04-26_1300.pdf",
+        "https://www.mlit.go.jp/common/001129563.pdf",
+        "MLIT 2016 disaster report with road locations and restriction times",
+    ),
+    (
+        "mlit_2016_damage_report_2016-05-27_1200.pdf",
+        "https://www.mlit.go.jp/common/001133025.pdf",
+        "MLIT 2016 disaster report with road locations and restriction times",
+    ),
+    (
+        "mlit_2016_road_recovery_timeline_overview.pdf",
+        "https://www.mlit.go.jp/common/001129766.pdf",
+        "MLIT 2016 road disruption and recovery timeline overview",
+    ),
+    (
         "mlit_2016_road_restoration_2016-04-20_0500.pdf",
         "https://www.mlit.go.jp/common/001128508.pdf",
         "MLIT 2016 general-road restoration map",
@@ -78,6 +178,26 @@ STATIC_SOURCES = [
         "mashiki_2016_response_verification_report_2017-11.pdf",
         "https://www.town.mashiki.lg.jp/kiji0032410/3_2410_1633_up_j7cvpcog.pdf",
         "Mashiki 2016 earthquake response verification report",
+    ),
+    (
+        "mashiki_urban_master_plan_current_conditions_2026.pdf",
+        "https://www.town.mashiki.lg.jp/kiji0034980/3_4980_12304_up_2rtryrhi.pdf",
+        "Mashiki urban master plan chapter documenting completed and post-2016 urban-planning roads",
+    ),
+    (
+        "mashiki_east_west_section3_opening_newsletter_2025.pdf",
+        "https://www.town.mashiki.lg.jp/kiji0037309/3_7309_22390_up_0nvz8usl.pdf",
+        "Mashiki newsletter confirming the 16 March 2025 partial opening of East-West Line section 3",
+    ),
+    (
+        "mashiki_second_north_south_opening_council_2026.pdf",
+        "https://www.town.mashiki.lg.jp/kiji0037967/3_7967_shiryou1_4sah7wxp.pdf",
+        "Mashiki council record confirming the February 2026 partial opening of Second North-South Line section 1",
+    ),
+    (
+        "mashiki_yokomachi_kiyama_bridge_opening_council_2023.pdf",
+        "https://www.town.mashiki.lg.jp/kiji0036503/3_6503_shiryou1_ia50k1uo.pdf",
+        "Mashiki council record confirming the 3 September 2023 opening of Kiyama Bridge and surrounding Yokomachi roads",
     ),
 ]
 
@@ -279,7 +399,18 @@ def main() -> None:
     rows: list[dict[str, Any]] = []
 
     for filename, url, title in STATIC_SOURCES:
-        group = "mlit_2016_roads" if filename.startswith("mlit_") else "interventions"
+        if filename.startswith("mlit_traffic_census_"):
+            group = "mlit_traffic_census"
+        elif filename.startswith("mlit_2016_"):
+            group = "mlit_2016_roads"
+        elif filename.startswith("mlit_2026_"):
+            group = "mlit_2026_roads"
+        elif filename.startswith("nexco_2026_"):
+            group = "nexco_2026_roads"
+        elif filename.startswith("qsr_2026_"):
+            group = "qsr_2026_roads"
+        else:
+            group = "interventions"
         destination = raw_root / group / filename
         result = download_file(url, destination)
         rows.append(

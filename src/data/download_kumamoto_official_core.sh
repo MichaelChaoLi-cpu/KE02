@@ -60,7 +60,7 @@ for stem in \
   2608051300data 2608061300data 2608071600data \
   2608080900data 2608090900data 2608101200data \
   2608111500data 2608121200data 2608131200data \
-  2608140900data 2608170900data; do
+  2608140900data 2608170900data 2608180900data; do
   download "$raw/mlit/2026/road_passability/$stem.zip" "$road_root/$stem.zip"
 done
 
