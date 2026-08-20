@@ -660,6 +660,10 @@ figureDictionary:
     figureExplanation: Panel a maps the Mashiki corridor cluster and Yokoe Bridge. Panels b and c show that each intervention
       was completed after the 2016 failure and before the 2026 earthquake, while preserving the capacity and structural pathways
       as separate cases.
+    figurePanelCount: 3
+    figureNote: Panel a maps the Mashiki corridor cluster and Yokoe Bridge. Panels b and c show that each intervention was
+      completed after the 2016 failure and before the 2026 earthquake, while preserving the capacity and structural pathways
+      as separate cases.
     figureSuitableSection: 'Results: case setting and adaptation chronology'
   fig_mashiki_central_line_repeated_shock_service_evidence:
     figureId: fig_mashiki_central_line_repeated_shock_service_evidence
@@ -669,6 +673,10 @@ figureDictionary:
     figureExplanation: Panel a shows three positive 2016 restriction observations. Panel b shows passage-layer availability,
       corridor traces, longitudinal coverage, and the first near-full positive observation at no later than 43.55 hours. The
       panels do not imply equivalent outcomes or an exact reopening time.
+    figurePanelCount: 2
+    figureNote: Panel a shows three positive 2016 restriction observations. Panel b shows passage-layer availability, corridor
+      traces, longitudinal coverage, and the first near-full positive observation at no later than 43.55 hours. The panels do
+      not imply equivalent outcomes or an exact reopening time.
     figureSuitableSection: 'Results: Mashiki capacity-pathway evidence'
   fig_yokoe_bridge_restoration_under_repeated_shock:
     figureId: fig_yokoe_bridge_restoration_under_repeated_shock
@@ -678,6 +686,10 @@ figureDictionary:
     figureExplanation: Panel a compares the 2016 full-reopening and early-access milestones with the 2026 full reopening.
       Panel b shows that both bounded restoration ratios remain below one while 2026 MMI and PGA are higher. The direction
       is robust but not a causal reconstruction effect.
+    figurePanelCount: 2
+    figureNote: Panel a compares the 2016 full-reopening and early-access milestones with the 2026 full reopening. Panel b
+      shows that both bounded restoration ratios remain below one while 2026 MMI and PGA are higher. The direction is robust
+      but not a causal reconstruction effect.
     figureSuitableSection: 'Results: Yokoe structural-pathway evidence'
   fig_case_selection_and_inference_boundaries:
     figureId: fig_case_selection_and_inference_boundaries
@@ -687,6 +699,10 @@ figureDictionary:
     figureExplanation: Panel a reports screened and gate-passing records for four official candidate universes before collapsing
       nested records to two physical cases. Panel b locates twelve prespecified checks within robust, measurement-boundary,
       or unsupported categories.
+    figurePanelCount: 2
+    figureNote: Panel a reports screened and gate-passing records for four official candidate universes before collapsing nested
+      records to two physical cases. Panel b locates twelve prespecified checks within robust, measurement-boundary, or unsupported
+      categories.
     figureSuitableSection: 'Results: selection validity and robustness'
 analysisStructureBrief:
   overview: A structured repeated-shock mechanism study of two deliberately non-pooled transport adaptations. The analysis
