@@ -159,15 +159,7 @@ def write_workbook(table: pd.DataFrame) -> None:
     sheet.title = "Selection Gates"
     sheet.sheet_view.showGridLines = False
 
-    sheet.merge_cells("A1:F1")
-    title = sheet["A1"]
-    title.value = "Candidate Selection Gate Summary"
-    title.font = Font(name="Aptos Display", size=15, bold=True, color=WHITE)
-    title.fill = PatternFill("solid", fgColor=NAVY)
-    title.alignment = Alignment(horizontal="left", vertical="center")
-    sheet.row_dimensions[1].height = 28
-
-    header_row = 2
+    header_row = 1
     for column_index, column_name in enumerate(table.columns, start=1):
         cell = sheet.cell(header_row, column_index, column_name)
         cell.font = Font(name="Aptos", size=9.2, bold=True, color=WHITE)
@@ -206,7 +198,7 @@ def write_workbook(table: pd.DataFrame) -> None:
     for column_index, width in enumerate(widths, start=1):
         sheet.column_dimensions[chr(64 + column_index)].width = width
 
-    sheet.freeze_panes = "B3"
+    sheet.freeze_panes = "B2"
     sheet.auto_filter.ref = f"A{header_row}:F{body_end}"
     excel_table = Table(
         displayName="CandidateSelectionGateSummary",

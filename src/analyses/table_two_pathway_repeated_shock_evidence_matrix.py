@@ -140,15 +140,7 @@ def write_workbook(table: pd.DataFrame) -> None:
     sheet.title = "Evidence Matrix"
     sheet.sheet_view.showGridLines = False
 
-    sheet.merge_cells("A1:C1")
-    title = sheet["A1"]
-    title.value = "Two-Pathway Repeated-Shock Evidence Matrix"
-    title.font = Font(name="Aptos Display", size=15, bold=True, color=WHITE)
-    title.fill = PatternFill("solid", fgColor=NAVY)
-    title.alignment = Alignment(horizontal="left", vertical="center")
-    sheet.row_dimensions[1].height = 28
-
-    header_row = 2
+    header_row = 1
     for column_index, column_name in enumerate(table.columns, start=1):
         cell = sheet.cell(header_row, column_index, column_name)
         cell.font = Font(name="Aptos", size=10, bold=True, color=WHITE)
@@ -192,7 +184,7 @@ def write_workbook(table: pd.DataFrame) -> None:
     sheet.column_dimensions["A"].width = 28
     sheet.column_dimensions["B"].width = 55
     sheet.column_dimensions["C"].width = 55
-    sheet.freeze_panes = "B3"
+    sheet.freeze_panes = "B2"
     sheet.auto_filter.ref = f"A{header_row}:C{body_start + len(table) - 1}"
 
     excel_table = Table(
