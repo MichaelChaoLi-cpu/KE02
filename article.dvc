@@ -1,6 +1,6 @@
 outs:
-- md5: d751713988987e9331980363e24189ce.dir
-  size: 0
-  nfiles: 0
+- md5: 7910b2f6f6a2fde51171478d1d4c54f6.dir
+  size: 64015417
+  nfiles: 37
   hash: md5
   path: article
