@@ -1615,3 +1615,116 @@ At Mashiki, the two-to-four-lane widening aims to improve traffic flow, pedestri
 - Remaining formatting issue: Record 3703 is typed Journal Article and reference 34 omits the visible web URL. On 10 October 2026 the human defers this non-substantive formatting correction; retain it for final bibliography QA before submission. The issue is not fixed or erased and does not change the selected source, engineering facts or response position.
 - Response-location inventory: Five prose/table locations (parts 01-05) plus three bibliography paragraphs = eight distinct locations. Co-located citation fields do not duplicate the Methods/Results locations. Use five exact quotations under the response skill's 6-10-location rule; this bookkeeping remains internal. The response is pending human review, not comment completion.
 
+## reviewer-2/comment-5
+
+### part-01
+
+- Location: Methods > Case-Selection and Geometry Gates; first sentence of paragraph beginning 'We define the selection denominator'
+- Reason: Clarify source-entry counting and the deliberate exact same-asset overlap without redefining the 65-row denominator.
+- Kila decisions: KILA-D-20261010-002
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-09T23:29:58Z
+- Author: Kila
+- Markup SHA-256 before: `0884e13c80f1e2d960de06ed829392f54a244656b4bf4ffa122f97abfa5ae48b`
+- Markup SHA-256 after: `fa9fc3ed3c407fe512ecf122aa40104c8d00aa8fc6daec7edf482840608d5ed5`
+- Revision IDs: `333`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T083000711107.reviewer-2-comment-5.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+We define the selection denominator before evaluating outcomes and compute gate-specific counts within each candidate universe.
+~~~~
+
+- After:
+
+~~~~text
+We define the selection denominator before evaluating outcomes and compute gate-specific counts within each candidate universe. Each candidate is a source-specific screening entry, not necessarily a distinct physical asset. Yokoe appears once in the restored-bridge inventory and once in the later damage register; these two entries map to one bridge.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Each candidate is a source-specific screening entry, not necessarily a distinct physical asset. Yokoe appears once in the restored-bridge inventory and once in the later damage register; these two entries map to one bridge."
+
+### part-02
+
+- Location: Methods > Reproducibility; first sentence
+- Reason: State the actual generation and deduplication rules instead of relying on a generic deterministic-code claim; identify the supplementary set as explicitly enumerated, not a regional census.
+- Kila decisions: KILA-D-20261010-002
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-09T23:30:09Z
+- Author: Kila
+- Markup SHA-256 before: `fa9fc3ed3c407fe512ecf122aa40104c8d00aa8fc6daec7edf482840608d5ed5`
+- Markup SHA-256 after: `9250f05398f3ec40089c5700ab027b70498d4742aa4d8600641744efe52e0b39`
+- Revision IDs: `334`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T083011313904.reviewer-2-comment-5.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+All analytical products are generated from versioned raw and processed data using deterministic preprocessing and output scripts.
+~~~~
+
+- After:
+
+~~~~text
+All analytical products are generated from versioned raw and processed data using deterministic preprocessing and output scripts. Candidate generation links 20 locally documented road-project entries to official road features and retains 12 entries with a match and a reported work-completion date before the later event. The bridge inventory contains 37 entries transcribed from the prefectural restoration report. Filtering the later restriction snapshots for bridge-related reasons and deduplicating by normalized route, start location and end location yields 13 records. Three explicitly listed reconstruction candidates form the supplementary screening set.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Candidate generation links 20 locally documented road-project entries to official road features and retains 12 entries with a match and a reported work-completion date before the later event. The bridge inventory contains 37 entries transcribed from the prefectural restoration report. Filtering the later restriction snapshots for bridge-related reasons and deduplicating by normalized route, start location and end location yields 13 records. Three explicitly listed reconstruction candidates form the supplementary screening set."
+
+### part-03
+
+- Location: Figure 4 caption note; first sentence
+- Reason: Include both Mashiki nested stages and Yokoe cross-source duplicate representation in the existing caption.
+- Kila decisions: KILA-D-20261010-002
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-09T23:30:19Z
+- Author: Kila
+- Markup SHA-256 before: `9250f05398f3ec40089c5700ab027b70498d4742aa4d8600641744efe52e0b39`
+- Markup SHA-256 after: `65d7facfb0daa27155228261e0f12bce01fc92194c909924201688e26a4e0137`
+- Revision IDs: `335`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T083021866299.reviewer-2-comment-5.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `c21d00426c037a67b0fba1fabff610e453e3a2a5424274c5287e40c65ce00d46`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Panel a reports screened and gate-passing records for four official candidate universes before collapsing nested records to two physical cases.
+~~~~
+
+- After:
+
+~~~~text
+Panel a reports screened and gate-passing records for four official candidate universes before collapsing nested and cross-source records to two physical cases.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "and cross-source "
+

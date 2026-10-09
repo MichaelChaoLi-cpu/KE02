@@ -196,10 +196,20 @@ The revised text is quoted below.
 - This is simply a curiosity. The 65 candidate records are divided into four official universes. The authors should clarify whether these datasets are mutually exclusive at the record level and provide sufficient information to reproduce the initial candidate identification process.
 
 **Response:**
-[Response to be completed.]
+Thank you for this comment. The revised Methods clarify that the 65 candidates are source-specific screening entries, describe how each candidate set is generated, and explain the cross-source overlap at Yokoe. Each ledger entry belongs to one source universe, but the universes are not mutually exclusive at the physical-asset level: Yokoe appears in both the restored-bridge inventory and the later damage register. These entries map to one bridge, while the three retained Mashiki stages form one corridor. The screening denominator remains 65 records and the analysis retains two physical cases.
 
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+"Each candidate is a source-specific screening entry, not necessarily a distinct physical asset. Yokoe appears once in the restored-bridge inventory and once in the later damage register; these two entries map to one bridge."
+(Page 16, Lines 339–342)
+
+The Reproducibility subsection now states the candidate-generation rules:
+
+"Candidate generation links 20 locally documented road-project entries to official road features and retains 12 entries with a match and a reported work-completion date before the later event. The bridge inventory contains 37 entries transcribed from the prefectural restoration report. Filtering the later restriction snapshots for bridge-related reasons and deduplicating by normalized route, start location and end location yields 13 records. Three explicitly listed reconstruction candidates form the supplementary screening set."
+(Page 21, Lines 448–454)
+
+The Figure 4 caption now includes cross-source records in the collapse to physical cases:
+
+"Panel a reports screened and gate-passing records for four official candidate universes before collapsing nested and cross-source records to two physical cases."
+(Page 27, Lines 23–24)
 
 ## Comment 6
 
