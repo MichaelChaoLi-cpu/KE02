@@ -43,10 +43,7 @@ The elapse time of a decade between the two large mainshocks is opportune for th
 To improve this paper, the following suggestions are made:
 
 **Response:**
-[Response to be completed.]
-
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+Thank you for your positive assessment and constructive suggestions. The revised Methods, Results, Discussion and Table 2 describe the documented design basis, reconstruction scope, and observed damage and restoration, and relate the findings to the intended engineering functions. The Discussion also examines adverse earthquake sequences, including the hypothetical M7.5 event and further shocks during recovery, as conditional scenarios. Detailed responses and revised passages are provided under Comments 1 and 2 below.
 
 ## Comment 1
 
