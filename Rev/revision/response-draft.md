@@ -97,10 +97,7 @@ Thank you for this comment. The revised Discussion examines how greater asset da
 Very interesting paper. The central idea is that a second earthquake can provide an opportunity to assess the operational performance of infrastructure previously reconstructed or upgraded following an earlier event. The authors investigate two cases associated with the 2016 and 2026 Kumamoto earthquakes. Some suggestions:
 
 **Response:**
-[Response to be completed.]
-
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+Thank you for your positive assessment and constructive suggestions. The revised title states the study's focus more directly, and the Introduction clarifies its contribution relative to existing work and cites all three suggested studies. The revised Results, Methods and Tables add a three-period spectral comparison, explain the longitudinal-coverage threshold and its sensitivity, and clarify candidate-record generation and cross-source overlap. The Discussion explains the interpretation limits of the ground-motion comparison and gives concrete recommendations for infrastructure managers. Detailed responses and revised passages are provided under Comments 1–6 below.
 
 ## Comment 1
 
