@@ -4,19 +4,17 @@
 
 We thank the editor and reviewers for their careful assessment of our manuscript.
 
-[Resubmission statement to be completed.]
+The main revisions are:
 
-[Overview of the completed revisions.]
+- The revised title identifies the study's focus on transport infrastructure performance under repeated earthquakes. The Introduction clarifies the contribution relative to existing research and incorporates all three reviewer-recommended studies.
 
-- [Revision summary item 1: describe the major manuscript-level change.]
-- [Revision summary item 2: describe the major theoretical or conceptual change.]
-- [Revision summary item 3: describe the major methodological or robustness-check change.]
-- [Revision summary item 4: describe the major results, discussion, table, or figure change.]
-- [Revision summary item 5: describe language polishing, consistency checks, or formatting changes.]
+- The manuscript adds documented engineering information on design basis, reconstruction scope, damage and repair, and relates the observed performance to the intended engineering functions. A three-period spectral comparison supplements MMI and PGA, with corresponding revisions to the Results, Methods, tables and Figure 2.
 
-[Summary of other completed revisions.]
+- The Methods clarify source-specific candidate records, cross-source overlap and candidate-generation rules. The manuscript also explains the physical meaning of the longitudinal-coverage cutoff and reports sensitivity to alternative thresholds.
 
-[Closing statement to be completed.]
+- The Discussion examines conditional adverse earthquake sequences, explains the interpretation limits of the comparisons, and provides concrete recommendations for linking inspection, repair, passage and reopening records to completed interventions and event-specific shaking.
+
+Detailed point-by-point responses and revised manuscript passages follow.
 
 # Editor
 
@@ -27,10 +25,7 @@ We invite you to revise your paper, carefully addressing the comments from the r
 We recommend submitting all revisions within the mentioned deadline.
 
 **Response:**
-[Response to be completed.]
-
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+Thank you for the opportunity to revise our manuscript. The revised manuscript reports bridge restoration and corridor passage as distinct outcomes, explains the limits of the shaking comparison and causal interpretation, and includes the engineering information and sensitivity analyses requested by the reviewers. The Discussion also examines conditional adverse earthquake scenarios and provides concrete recommendations for infrastructure managers. The main revisions are summarized above, with detailed point-by-point responses and revised passages provided below.
 
 # Reviewer 1
 
