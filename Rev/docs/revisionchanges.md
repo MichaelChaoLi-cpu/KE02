@@ -1728,3 +1728,79 @@ Panel a reports screened and gate-passing records for four official candidate un
      - Before: ""
      - After: "and cross-source "
 
+## reviewer-2/comment-4
+
+### part-01
+
+- Location: Methods > Mashiki Corridor Service-Presence Analysis; paragraph beginning 'The Mashiki event-state layer retains'
+- Reason: Define the geometric numerator and denominator, state the physical allowance implied by 0.80 without inventing calibration, and identify the bounded alternative cutoffs.
+- Kila decisions: KILA-D-20261010-004, KILA-D-20261010-005
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T00:07:51Z
+- Author: Kila
+- Markup SHA-256 before: `65d7facfb0daa27155228261e0f12bce01fc92194c909924201688e26a4e0137`
+- Markup SHA-256 after: `ad20a02580800a6f73966b87cb8e6ece4b134231489fdefa90f3d6a4a5280be5`
+- Revision IDs: `336`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T090753771498.reviewer-2-comment-4.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+For each later snapshot, we record layer availability, observed corridor passage, unique corridor traces, longitudinal coverage, elapsed time, and the interpretation of the time bound.
+~~~~
+
+- After:
+
+~~~~text
+For each later snapshot, we record layer availability, observed corridor passage, unique corridor traces, longitudinal coverage, elapsed time, and the interpretation of the time bound. Longitudinal coverage is the union length of selected trace intervals on the polygon's longitudinal axis divided by its projected span, capped at one. The 0.80 cutoff permits up to 20% of this span to remain unrepresented; it is a descriptive classification, not a calibrated lane-availability or capacity threshold. Cutoff sensitivity uses 0.70, 0.80 and 0.90 with trace extraction held fixed.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Longitudinal coverage is the union length of selected trace intervals on the polygon's longitudinal axis divided by its projected span, capped at one. The 0.80 cutoff permits up to 20% of this span to remain unrepresented; it is a descriptive classification, not a calibrated lane-availability or capacity threshold. Cutoff sensitivity uses 0.70, 0.80 and 0.90 with trace extraction held fixed."
+
+### part-02
+
+- Location: Results > Mashiki Central Line; paragraph beginning 'Mashiki links a capacity-expansion corridor'
+- Reason: Report both the frequency change under the stricter cutoff and the unchanged first-observation bound, rather than claiming every result is invariant.
+- Kila decisions: KILA-D-20261010-004, KILA-D-20261010-005
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T00:25:10Z
+- Author: Kila
+- Markup SHA-256 before: `ad20a02580800a6f73966b87cb8e6ece4b134231489fdefa90f3d6a4a5280be5`
+- Markup SHA-256 after: `db4c84a86eb81e6d74b293e5f5756f27a635d5cc6f8f5dc0b996873045b6005b`
+- Revision IDs: `337`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T092512883995.reviewer-2-comment-4.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The first near-full positive observation occurs no later than 43.55 hours after the earthquake origin.
+~~~~
+
+- After:
+
+~~~~text
+The first near-full positive observation occurs no later than 43.55 hours after the earthquake origin. Cutoffs of 0.70, 0.80 and 0.90 yield 19, 19 and 17 qualifying snapshots out of 21 (90.5%, 90.5% and 81.0%), respectively, with the same 43.55-hour first-observation bound.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Cutoffs of 0.70, 0.80 and 0.90 yield 19, 19 and 17 qualifying snapshots out of 21 (90.5%, 90.5% and 81.0%), respectively, with the same 43.55-hour first-observation bound."
+

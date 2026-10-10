@@ -186,10 +186,15 @@ The revised text is quoted below.
 - correctly the manuscript uses a near-full longitudinal coverage threshold to characterize vehicle passage. The threshold, its physical interpretation, and the sensitivity of the results to alternative threshold values should be explained more clearly ?? Please clarify
 
 **Response:**
-[Response to be completed.]
+Thank you for this comment. The revised Methods define longitudinal coverage, explain the 0.80 cutoff as a descriptive classification that permits up to 20% of the longitudinal span to remain unrepresented, and specify the alternative-cutoff comparison with trace extraction held fixed.
 
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+"Longitudinal coverage is the union length of selected trace intervals on the polygon's longitudinal axis divided by its projected span, capped at one. The 0.80 cutoff permits up to 20% of this span to remain unrepresented; it is a descriptive classification, not a calibrated lane-availability or capacity threshold. Cutoff sensitivity uses 0.70, 0.80 and 0.90 with trace extraction held fixed."
+(Pages 18–19, Lines 395–399)
+
+The Results report that the stricter 0.90 cutoff reduces the number of qualifying snapshots, while the first-observation upper bound remains 43.55 hours:
+
+"Cutoffs of 0.70, 0.80 and 0.90 yield 19, 19 and 17 qualifying snapshots out of 21 (90.5%, 90.5% and 81.0%), respectively, with the same 43.55-hour first-observation bound."
+(Page 7, Lines 128–130)
 
 ## Comment 5
 
