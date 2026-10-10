@@ -1804,3 +1804,41 @@ The first near-full positive observation occurs no later than 43.55 hours after 
      - Before: ""
      - After: " Cutoffs of 0.70, 0.80 and 0.90 yield 19, 19 and 17 qualifying snapshots out of 21 (90.5%, 90.5% and 81.0%), respectively, with the same 43.55-hour first-observation bound."
 
+## reviewer-1/comment-2
+
+### part-01
+
+- Location: Discussion > Inference Limits and Transferability; paragraph beginning 'The principal identification limit is the absence of a credible counterfactual.'
+- Reason: Address M7.5, case-specific adverse damage and blockage, and further shocks during recovery, explaining how operational inferences might change without quantitative predictions.
+- Kila decisions: KILA-D-20261010-007, KILA-D-20261010-008
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T01:08:32Z
+- Author: Kila
+- Markup SHA-256 before: `db4c84a86eb81e6d74b293e5f5756f27a635d5cc6f8f5dc0b996873045b6005b`
+- Markup SHA-256 after: `0517242829a22cd646b235fce5542fec7efbd956ed6e985877309c66bc7a9c2d`
+- Revision IDs: `338`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T100834244514.reviewer-1-comment-2.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The two cases demonstrate an audit logic, not prevalence across assets or cities.
+~~~~
+
+- After:
+
+~~~~text
+The two cases demonstrate an audit logic, not prevalence across assets or cities. A hypothetical M7.5 event does not by itself specify demand at either asset; rupture geometry, distance and site conditions also matter. At Yokoe, stronger component-relevant shaking or greater ground deformation could cause extensive foundation or retained-component damage, increasing repair needs and weakening or reversing the reopening contrast. At Mashiki, debris or ground damage blocking the available carriageways or their connections could interrupt passage despite widening. Further strong shocks before inspection and repair are complete could compound damage or renew closures in either case. These downward counterfactuals identify conditions under which the observed restoration and passage findings may cease to transfer; they do not estimate outcomes under an alternative sequence.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " A hypothetical M7.5 event does not by itself specify demand at either asset; rupture geometry, distance and site conditions also matter. At Yokoe, stronger component-relevant shaking or greater ground deformation could cause extensive foundation or retained-component damage, increasing repair needs and weakening or reversing the reopening contrast. At Mashiki, debris or ground damage blocking the available carriageways or their connections could interrupt passage despite widening. Further strong shocks before inspection and repair are complete could compound damage or renew closures in either case. These downward counterfactuals identify conditions under which the observed restoration and passage findings may cease to transfer; they do not estimate outcomes under an alternative sequence."

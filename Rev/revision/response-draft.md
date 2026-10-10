@@ -88,10 +88,10 @@ This raises the question as to what else might have happened? Suppose that the s
 The usefulness of this paper, and its generalization to other seismic environments, would be enhanced by broadening the context of this study to include such downward counterfactuals.
 
 **Response:**
-[Response to be completed.]
+Thank you for this comment. The revised Discussion examines how greater asset damage, corridor obstruction and further shocks during inspection and repair could alter the observed reopening and passage findings. It also explains why the M7.5 example requires asset-level demand assumptions and describes these adverse sequences as conditional pathways rather than numerical predictions.
 
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+"A hypothetical M7.5 event does not by itself specify demand at either asset; rupture geometry, distance and site conditions also matter. At Yokoe, stronger component-relevant shaking or greater ground deformation could cause extensive foundation or retained-component damage, increasing repair needs and weakening or reversing the reopening contrast. At Mashiki, debris or ground damage blocking the available carriageways or their connections could interrupt passage despite widening. Further strong shocks before inspection and repair are complete could compound damage or renew closures in either case. These downward counterfactuals identify conditions under which the observed restoration and passage findings may cease to transfer; they do not estimate outcomes under an alternative sequence."
+(Pages 12–13, Lines 259–269)
 
 # Reviewer 2
 
