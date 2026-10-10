@@ -221,7 +221,7 @@ The Figure 4 caption now includes cross-source records in the collapse to physic
 - Comment on the Conclusion section. The discussion should provide (include) more concrete recommendations for infrastructure managers.
 
 **Response:**
-[Response to be completed.]
+Thank you for this suggestion. The revised Discussion subsection, Implications for Post-Disaster Infrastructure Investment, now gives concrete recommendations for linking bridge inspection and repair records to reopening milestones, combining corridor passage records with operational measurements, and connecting these records to intervention chronology and event-specific shaking.
 
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+"For reconstructed bridges, managers should link component inspection findings and repair actions to dated milestones for light-vehicle access and full general-traffic reopening. For widened corridors, managers should record lane restrictions and traffic volumes and speeds alongside timestamped passage traces and observation gaps, so that vehicle passage is distinguished from capacity recovery. These service records should be linked to intervention completion dates and event-specific shaking using stable asset or corridor identifiers."
+(Page 12, Lines 250–257)

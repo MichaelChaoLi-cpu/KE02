@@ -1896,3 +1896,42 @@ Transport infrastructure performance under repeated earthquakes in Kumamoto
   6. `delete`
      - Before: ", Japan"
      - After: ""
+
+## reviewer-2/comment-6
+
+### part-01
+
+- Location: Discussion > Implications for Post-Disaster Infrastructure Investment; final sentence
+- Reason: Give concrete pathway-specific inspection/repair/reopening and corridor-monitoring record recommendations, linked by stable identities to completion chronology and shaking.
+- Kila decisions: KILA-D-20261010-014
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T04:05:11Z
+- Author: Kila
+- Markup SHA-256 before: `57fe2801440abe00070a2ad67a30743ddbc941867d09984f0491d2f104d98304`
+- Markup SHA-256 after: `796c87d62171010987112487baba1887ee2075a9dc25d4dff1fcb1771057347f`
+- Revision IDs: `360`
+- Backup: `/Volumes/MikesDataBackup/Research/KE02/Rev/revision/.kila-backups/KE02.rev.markup.20261010T130513935198.reviewer-2-comment-6.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This record architecture turns future shocks into auditable performance tests while preserving the limits of each observation system.
+~~~~
+
+- After:
+
+~~~~text
+This record architecture turns future shocks into auditable performance tests while preserving the limits of each observation system. For reconstructed bridges, managers should link component inspection findings and repair actions to dated milestones for light-vehicle access and full general-traffic reopening. For widened corridors, managers should record lane restrictions and traffic volumes and speeds alongside timestamped passage traces and observation gaps, so that vehicle passage is distinguished from capacity recovery. These service records should be linked to intervention completion dates and event-specific shaking using stable asset or corridor identifiers.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " For reconstructed bridges, managers should link component inspection findings and repair actions to dated milestones for light-vehicle access and full general-traffic reopening. For widened corridors, managers should record lane restrictions and traffic volumes and speeds alongside timestamped passage traces and observation gaps, so that vehicle passage is distinguished from capacity recovery. These service records should be linked to intervention completion dates and event-specific shaking using stable asset or corridor identifiers."
