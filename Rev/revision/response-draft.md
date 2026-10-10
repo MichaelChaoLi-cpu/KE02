@@ -117,10 +117,22 @@ Thank you for this suggestion. The revised title directly identifies the study's
 - Then reviewer moves to “Introduction”. It establishes the general relevance of transport network resilience and the limitations of conventional post-disaster assessments. However, the scientific gap (the advancement of this research that the reviewer considers good, is not emphasized) is not sufficiently distinguished from existing studies on infrastructure recovery, road-network functionality, and longitudinal resilience assessment. Furthermore consider very recent findings on “Transport-resilience studies rarely integrate segment-level…..” such as DOI: 10.1080/15732479.2024.2339343 and mainly on “Urban recovery contexts nevertheless differ through uncertain system interactions and operations, limiting direct equivalence across events” such as DOI: 10.3390/buildings16132529 and DOI: 10.1016/j.engfailanal.2024.108282 where these aspects are deeply investigated;
 
 **Response:**
-[Response to be completed.]
+Thank you for this comment and the suggested references. The revised Introduction cites all three studies in its asset-level assessment discussion (References 1–3), replaces the broad scarcity claim with the specific operational measures used in transport-resilience studies, and distinguishes our contribution from recovery modeling, road-network functionality measurement, and longitudinal exposure assessment: linking earlier failure and completed intervention to observed service under renewed shaking, with explicit candidate denominators and outcome-comparability checks.
 
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+"Related asset-level studies assess deterioration-sensitive bridge risk and prioritization, expected annual seismic loss in existing buildings, and earthquake damage from remotely observed images 1-3."
+(Page 3, Lines 33–35)
+
+"Transport-resilience studies measure segment-level operational performance through traffic volume and speed, while conventional infrastructure records can omit disruptive exposures below accident-reporting thresholds"
+(Page 3, Lines 36–38)
+
+"Its contribution is a traceable form of urban resilience learning centered on completed interventions. Recovery modeling, operational-performance measurement, and longitudinal exposure records address different parts of disaster resilience; this audit links earlier failure and intervention completion to observed service under renewed shaking. Explicit candidate denominators and outcome-comparability checks make that sequence auditable, allowing heterogeneous investments to be compared without pooling them into an artificial effect estimate or describing the repeated shocks as a natural experiment."
+(Page 5, Lines 80–87)
+
+"Nascimbene, R. & Brunesi, E. Expected Annual Loss as a Global Metric for Seismic Performance Assessment of Existing Buildings. Buildings 16, 2529 (2026)."
+(Page 32, Lines 6–7)
+
+"Hamidpour, S., Scattarreggia, N., Nascimbene, R. & Monteiro, R. A risk-based quantitative approach for priority assessment of ageing bridges accounting for deterioration. Structure and Infrastructure Engineering 22, 490-505, doi:10.1080/15732479.2024.2339343 (2026)."
+(Page 32, Lines 11–14)
 
 ## Comment 3
 

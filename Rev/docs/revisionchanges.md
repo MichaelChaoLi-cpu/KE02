@@ -1843,6 +1843,131 @@ The two cases demonstrate an audit logic, not prevalence across assets or cities
      - Before: ""
      - After: " A hypothetical M7.5 event does not by itself specify demand at either asset; rupture geometry, distance and site conditions also matter. At Yokoe, stronger component-relevant shaking or greater ground deformation could cause extensive foundation or retained-component damage, increasing repair needs and weakening or reversing the reopening contrast. At Mashiki, debris or ground damage blocking the available carriageways or their connections could interrupt passage despite widening. Further strong shocks before inspection and repair are complete could compound damage or renew closures in either case. These downward counterfactuals identify conditions under which the observed restoration and passage findings may cease to transfer; they do not estimate outcomes under an alternative sequence."
 
+## reviewer-2/comment-2
+
+### part-01
+
+- Location: Introduction, first paragraph, before its first sentence
+- Reason: Provide a narrowly accurate statement for all three reviewer-specified papers without assigning them the manuscript's transport-functionality or urban-recovery gap claims.
+- Kila decisions: KILA-D-20261010-010, KILA-D-20261010-011
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T02:11:52Z
+- Author: Kila
+- Markup SHA-256 before: `0517242829a22cd646b235fce5542fec7efbd956ed6e985877309c66bc7a9c2d`
+- Markup SHA-256 after: `29e20fb4303f094f7ad500a8212f01ca9b4ba768e7a90ad316d99be12a77689a`
+- Revision IDs: `339`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T111155684153.reviewer-2-comment-2.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Ex post reconstruction and hazard records can inform seismic road-asset resilience planning
+~~~~
+
+- After:
+
+~~~~text
+Related asset-level studies assess deterioration-sensitive bridge risk and prioritization, expected annual seismic loss in existing buildings, and earthquake damage from remotely observed images. Ex post reconstruction and hazard records can inform seismic road-asset resilience planning
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "Related asset-level studies assess deterioration-sensitive bridge risk and prioritization, expected annual seismic loss in existing buildings, and earthquake damage from remotely observed images. "
+
+### part-02
+
+- Location: Introduction, first paragraph, second sentence
+- Reason: Replace an unsupported field-wide scarcity claim with the concrete operational contribution supported by existing reference 2.
+- Kila decisions: KILA-D-20261010-010, KILA-D-20261010-011
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T02:12:09Z
+- Author: Kila
+- Markup SHA-256 before: `29e20fb4303f094f7ad500a8212f01ca9b4ba768e7a90ad316d99be12a77689a`
+- Markup SHA-256 after: `14424b6849401e8ad78a89930a1e8839ffcda527965785a11bd48d470da38cd1`
+- Revision IDs: `340, 341, 342`
+- Backup: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T111211348468.reviewer-2-comment-2.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Transport-resilience studies rarely integrate segment-level operational performance, while conventional infrastructure records can omit disruptive exposures below accident-reporting thresholds
+~~~~
+
+- After:
+
+~~~~text
+Transport-resilience studies measure segment-level operational performance through traffic volume and speed, while conventional infrastructure records can omit disruptive exposures below accident-reporting thresholds
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "rarely integrate"
+     - After: "measure"
+  2. `insert`
+     - Before: ""
+     - After: " through traffic volume and speed"
+
+### part-03
+
+- Location: Introduction, third paragraph, final sentence
+- Reason: Distinguish the audit of completed interventions under renewed shaking from recovery modeling, operational measurement and longitudinal exposure records, and specify the auditable evidence increment.
+- Kila decisions: KILA-D-20261010-010, KILA-D-20261010-011
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T02:33:58Z
+- Author: Kila
+- Markup SHA-256 before: `14424b6849401e8ad78a89930a1e8839ffcda527965785a11bd48d470da38cd1`
+- Markup SHA-256 after: `a476694364c05a5fa2d592150478a11bf5cbb0e3b152a6e5230f257983d6bdec`
+- Revision IDs: `343, 344, 345, 346, 347, 348`
+- Backup: `/Volumes/MikesDataBackup/Research/KE02/Rev/revision/.kila-backups/KE02.rev.markup.20261010T113400400510.reviewer-2-comment-2.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Its contribution is a traceable form of urban resilience learning that can compare heterogeneous investments without pooling them into an artificial effect estimate or describing the repeated shocks as a natural experiment.
+~~~~
+
+- After:
+
+~~~~text
+Its contribution is a traceable form of urban resilience learning centered on completed interventions. Recovery modeling, operational-performance measurement, and longitudinal exposure records address different parts of disaster resilience; this audit links earlier failure and intervention completion to observed service under renewed shaking. Explicit candidate denominators and outcome-comparability checks make that sequence auditable, allowing heterogeneous investments to be compared without pooling them into an artificial effect estimate or describing the repeated shocks as a natural experiment.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "centered on completed interventions. Recovery modeling, operational-performance measurement, and longitudinal exposure records address different parts of disaster resilience; this audit links earlier failure and intervention completion to observed service under renewed shaking. Explicit candidate denominators and outcome-comparability checks make "
+  2. `replace`
+     - Before: "can"
+     - After: "sequence"
+  3. `replace`
+     - Before: "compare"
+     - After: "auditable, allowing"
+  4. `insert`
+     - Before: ""
+     - After: " to be compared"
+
 ## reviewer-2/comment-1
 
 ### part-01
@@ -1935,3 +2060,45 @@ This record architecture turns future shocks into auditable performance tests wh
   1. `insert`
      - Before: ""
      - After: " For reconstructed bridges, managers should link component inspection findings and repair actions to dated milestones for light-vehicle access and full general-traffic reopening. For widened corridors, managers should record lane restrictions and traffic volumes and speeds alongside timestamped passage traces and observation gaps, so that vehicle passage is distinguished from capacity recovery. These service records should be linked to intervention completion dates and event-specific shaking using stable asset or corridor identifiers."
+
+## Human-save observation for reviewer-2/comment-2
+
+### part-04-human-citations — observed approved human save
+
+- Stable comment ID: `reviewer-2/comment-2`; implements approved v2 part-04. This append-only continuation does not rewrite the earlier parts01–03.
+- Locations: One combined citation group within the already counted Introduction part-01 sentence; three newly added bibliography paragraphs (current references1–3).
+- Operation: Human inserts source-linked citations and updates the bibliography through the existing Word/EndNote citation manager. Agent reads the regenerated clean and structural provenance; it does not write markup, fields, library records, or bibliography.
+- Kila decisions: KILA-D-20261010-010, KILA-D-20261010-011, KILA-D-20261010-017.
+- Observation timestamp: 2026-10-10T09:52:41Z. Human source save: 2026-10-10 18:42:02 JST.
+- Prior reviewed markup SHA-256: `796c87d62171010987112487baba1887ee2075a9dc25d4dff1fcb1771057347f`; current human-saved markup SHA-256: `cadf49f7a227474449e36464e1b987ec3f3d51487ef95ecd2483c7f21140e992`. These are checkpoints around one human citation save, not independent per-source agent writes.
+- Recoverable source: `Rev/revision/.kila-backups/KE02.rev.markup.20261010T094608Z.R2C2-human-save-readonly.docx`.
+- Evidence: `Rev/docs/qa/R2C2-v2/final-save/{clean-check,semantic-evidence,comparison,review-status,response-evidence}.json` and `review.py`; fresh accepted clean SHA-256: `47ff88dcf61beb499a000daf50f5f20f38cb0dcc841552a43ce19db25b766cdb`.
+- Before (complete uncited literature sentence, already inserted by part-01):
+
+~~~~text
+Related asset-level studies assess deterioration-sensitive bridge risk and prioritization, expected annual seismic loss in existing buildings, and earthquake damage from remotely observed images.
+~~~~
+
+- After (complete sentence in the current clean with the human citation display):
+
+~~~~text
+Related asset-level studies assess deterioration-sensitive bridge risk and prioritization, expected annual seismic loss in existing buildings, and earthquake damage from remotely observed images 1-3.
+~~~~
+
+- Actual citation linkage: Nested EN.CITE/EN.CITE.DATA fields contain matching encoded EndNote XML, library ID `92sfrzd2kap0egevr58vzexyvw2ze9zdtate`, records3705/3706/3704. Reference1 is DOI `10.3390/buildings16132529`, reference2 is DOI `10.1016/j.engfailanal.2024.108282`, reference3 is DOI `10.1080/15732479.2024.2339343`. Titles, authors, years, DOI identities and visible bibliography match the intended sources. Record3705 is the publisher-imported Electronic Article type; its DOI remains embedded although the current output style does not display it in the bibliography.
+- Citation-layout observation: Human groups all three sources after the full asset-level literature sentence rather than placing three separate fields after its individual phrases. This non-substantive presentation difference still supports the full sentence and does not attach these sources to the subsequent traffic-performance or urban-system-interaction claims. No agent corrective Word edit is performed.
+- Before bibliography: The three source records and their bibliography paragraphs are absent from the previous clean; all existing38 sources remain after normal automatic renumbering.
+- After (complete three new source-specific bibliography paragraphs):
+
+~~~~text
+1Nascimbene, R. & Brunesi, E. Expected Annual Loss as a Global Metric for Seismic Performance Assessment of Existing Buildings. Buildings 16, 2529 (2026).
+2Nascimbene, R. Investigation of seismic damage to existing buildings by using remotely observed images. Engineering Failure Analysis 161, 108282, doi:https://doi.org/10.1016/j.engfailanal.2024.108282 (2024).
+3Hamidpour, S., Scattarreggia, N., Nascimbene, R. & Monteiro, R. A risk-based quantitative approach for priority assessment of ageing bridges accounting for deterioration. Structure and Infrastructure Engineering 22, 490-505, doi:10.1080/15732479.2024.2339343 (2026).
+~~~~
+
+- Minimal change: Add one source-linked three-reference group, three bibliography entries and citation spacing; normal display-number/relationship-ID/cache updates do not change existing source identities or substantive wording.
+- Tracked-history verification: Saved Word revision IDs are remapped and the existing literature insertion is split around the new citation. Counts190ins/133del become192ins/133del. Every old deletion-text node and ordered inserted wording remains, allowing only the new citation spacing; no claim of unchanged native revision IDs or tracked per-record bibliography insertions is made. The pre-save source and this saved source remain recoverable. Track-revisions mode remains enabled.
+- Protected-content verification: Non-citation body prose, existing38 source identities/metadata, existing bibliography wording,49native math objects,3tables,4drawings and media remain. The9old body hyperlink destinations/text remain plus the new imagery DOI link; relationship IDs change normally. Endnotes contain only separators; their content and zero-hyperlink guard remain, with Word-save paragraph/rsid metadata changes disclosed.
+- Consolidated visual verification: Current clean/markup each render35pages. Every changed clean page3/4/6/10/11/12/13/14/16/18/19/32/33/34/35 and changed markup page3/4/6/10/11/12/13/14/16/17/18/19/32/33/34/35 is opened at original resolution; all pixel-identical pages reuse prior hash-bound reviewed evidence. Clean page5 is additionally opened to verify the contribution text. No new clipping, overlaps, formula loss or figure/table layout defect is found.
+- Response-location inventory: Three prose parts01–03 plus three new bibliography paragraphs = six distinct locations. The citation group shares part01, so it is not counted twice. Five exact quotations cover the literature addition, narrowed operational claim, contribution and two bibliography entries, including the Electronic Article output and ageing-bridge issue-year metadata; this bookkeeping remains internal.
+- Deferred bibliography issue retained: Existing EndNote record3703 remains Journal Article with its web URL absent in visible bibliography; its display number is now37, previously34. Human's earlier deferral is not waived or silently corrected. Final global old-response locator refresh and submission review also remain pending.
