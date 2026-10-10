@@ -110,10 +110,10 @@ Very interesting paper. The central idea is that a second earthquake can provide
 - First. The tile “Repeated shocks audit transport adaptations” is somewhat unconventional and may not immediately communicate the scientific objective. In particular, the word “audit” (reviewer does not fully agree on it) suggests a systematic evaluation of the effectiveness of implemented measures, whereas the manuscript repeatedly acknowledges that the available observations do not permit causal attribution. I suggest (not mandatory) a revision;
 
 **Response:**
-[Response to be completed.]
+Thank you for this suggestion. The revised title directly identifies the study's focus on transport infrastructure performance under repeated earthquakes and no longer uses audit as the headline verb.
 
-"[Exact revised manuscript text]"
-(Page XX, Lines XX–XX)
+"Transport infrastructure performance under repeated earthquakes in Kumamoto"
+(Page 1, Lines 2–3)
 
 ## Comment 2
 

@@ -1842,3 +1842,57 @@ The two cases demonstrate an audit logic, not prevalence across assets or cities
   1. `insert`
      - Before: ""
      - After: " A hypothetical M7.5 event does not by itself specify demand at either asset; rupture geometry, distance and site conditions also matter. At Yokoe, stronger component-relevant shaking or greater ground deformation could cause extensive foundation or retained-component damage, increasing repair needs and weakening or reversing the reopening contrast. At Mashiki, debris or ground damage blocking the available carriageways or their connections could interrupt passage despite widening. Further strong shocks before inspection and repair are complete could compound damage or renew closures in either case. These downward counterfactuals identify conditions under which the observed restoration and passage findings may cease to transfer; they do not estimate outcomes under an alternative sequence."
+
+## reviewer-2/comment-1
+
+### part-01
+
+- Location: Title, first paragraph
+- Reason: Implement the approved concise performance-focused title addressing the reviewer's optional suggestion.
+- Kila decisions: KILA-D-20261010-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-10-10T03:45:20Z
+- Author: Kila
+- Markup SHA-256 before: `a476694364c05a5fa2d592150478a11bf5cbb0e3b152a6e5230f257983d6bdec`
+- Markup SHA-256 after: `57fe2801440abe00070a2ad67a30743ddbc941867d09984f0491d2f104d98304`
+- Revision IDs: `349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359`
+- Backup: `/Volumes/MikesDataBackup/Research/KE02/Rev/revision/.kila-backups/KE02.rev.markup.20261010T124522723111.reviewer-2-comment-1.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `b33caaa3dee77b9971f1452cd0b4d1f6a194fdec16bca75d1735ecac6ddb456f`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Repeated shocks audit transport adaptations in Kumamoto, Japan
+~~~~
+
+- After:
+
+~~~~text
+Transport infrastructure performance under repeated earthquakes in Kumamoto
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Repeated"
+     - After: "Transport"
+  2. `replace`
+     - Before: "shocks"
+     - After: "infrastructure"
+  3. `replace`
+     - Before: "audit"
+     - After: "performance"
+  4. `replace`
+     - Before: "transport"
+     - After: "under"
+  5. `replace`
+     - Before: "adaptations"
+     - After: "repeated earthquakes"
+  6. `delete`
+     - Before: ", Japan"
+     - After: ""
